@@ -34,3 +34,11 @@ Append-only record of wiki maintenance and ingests.
 
 ## [2026-05-04] [Create] | .gitignore
 - Created .gitignore with configurations for System, Obsidian, and IDE files.
+## [2026-05-04] [Edit] | Concept - Go Introduction
+- Expanded content for beginners with detailed explanations of package structure, variables, constants, and control structures.
+- Added multiple code examples including If-Else, For Loop, and Functions.
+## [2026-05-04] [Edit] | Concept - Go Data Types
+- Enhanced data types page with beginner-focused explanations on Type Conversion, Zero Values, and Numeric precision.
+- Added detailed code examples for Integer overflow handling, Floating point math, and Raw String Literals.
+## [2026-05-04] [Edit] | Concept - Go Data Types
+- Added a Table of Contents (TOC) for improved navigation.

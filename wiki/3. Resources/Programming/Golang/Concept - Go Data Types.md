@@ -5,63 +5,136 @@ tags:
   - programming
 ---
 
-# Concept - Go Data Types
+# Concept - Go Data Types (ประเภทข้อมูลในภาษา Go)
 
-ข้อมูลพื้นฐานเกี่ยวกับประเภทข้อมูล (Data Types) ในภาษา Go ซึ่งเป็นภาษาแบบ Static Typing ที่ต้องการการระบุประเภทข้อมูลอย่างชัดเจน.
+## สารบัญ (Table of Contents)
+- [ประเภทข้อมูลพื้นฐาน (Basic Data Types)](#ประเภทข้อมูลพื้นฐาน-basic-data-types)
+  - [1. เลขจำนวนเต็ม (Integers)](#1-เลขจำนวนเต็ม-integers)
+  - [2. เลขทศนิยม (Floating Point Numbers)](#2-เลขทศนิยม-floating-point-numbers)
+  - [3. ค่าความจริง (Boolean)](#3-ค่าความจริง-boolean)
+  - [4. ข้อความ (String)](#4-ข้อความ-string)
+- [ตัวอย่างรหัสต้นฉบับแบบละเอียด (Detailed Examples)](#ตัวอย่างรหัสต้นฉบับแบบละเอียด-detailed-examples)
+  - [การใช้งาน Integer และ Overflow เบื้องต้น](#การใช้งาน-integer-และ-overflow-เบื้องต้น)
+  - [การใช้งาน Floating Point และความแม่นยำ](#การใช้งาน-floating-point-และความแม่นยำ)
+  - [การใช้งาน String และ Multi-line](#การใช้งาน-string-และ-multi-line)
+  - [ค่าเริ่มต้น (Zero Values)](#ค่าเริ่มต้น-zero-values)
+- [สรุปคำแนะนำสำหรับผู้เริ่มต้น](#สรุปคำแนะนำสำหรับผู้เริ่มต้น)
+- [แหล่งอ้างอิงและลิงก์ที่เกี่ยวข้อง](#แหล่งอ้างอิงและลิงก์ที่เกี่ยวข้อง)
+
+ทำความเข้าใจประเภทข้อมูลพื้นฐานในภาษา Go ซึ่งเป็นภาษาประเภท **Static Typing** (ต้องรู้ชนิดข้อมูลตั้งแต่ตอนเขียนโปรแกรม) และ **Strongly Typed** (ไม่สามารถเปลี่ยนชนิดข้อมูลไปมาได้โดยไม่แปลงค่าก่อน).
 
 ## ประเภทข้อมูลพื้นฐาน (Basic Data Types)
 
-ภาษา Go แบ่งประเภทข้อมูลหลักๆ ได้ดังนี้:
-
 ### 1. เลขจำนวนเต็ม (Integers)
-- `int`: ขนาดขึ้นอยู่กับสถาปัตยกรรมเครื่อง (32 หรือ 64 บิต)
-- `int8`, `int16`, `int32`, `int64`: ระบุขนาดบิตแน่นอนแบบมีเครื่องหมาย
-- `uint`, `uint8`, `uint16`, `uint32`, `uint64`: ระบุขนาดบิตแน่นอนแบบไม่มีเครื่องหมาย (บวกเท่านั้น)
-- `byte`: ชื่อเรียกเล่น (Alias) ของ `uint8`
-- `rune`: ชื่อเรียกเล่นของ `int32` (ใช้เก็บค่า Unicode)
+แบ่งออกเป็นแบบมีเครื่องหมาย (Signed) และไม่มีเครื่องหมาย (Unsigned):
+
+- **แบบระบุขนาดแน่นอน**: 
+    - `int8`, `int16`, `int32`, `int64` (เก็บค่าลบถึงบวก)
+    - `uint8`, `uint16`, `uint32`, `uint64` (เก็บค่าบวกเท่านั้น)
+- **แบบตามสถาปัตยกรรม (Platform Dependent)**:
+    - `int` และ `uint`: จะมีขนาด 32 บิตในระบบ 32-bit และ 64 บิตในระบบ 64-bit (แนะนำให้ใช้ `int` เป็นหลักสำหรับจำนวนทั่วไป)
+- **ตัวย่อพิเศษ (Aliases)**:
+    - `byte`: มีค่าเท่ากับ `uint8` (นิยมใช้กับข้อมูลดิบหรือไฟล์)
+    - `rune`: มีค่าเท่ากับ `int32` (ใช้เก็บตัวอักษร Unicode หนึ่งตัว)
 
 ### 2. เลขทศนิยม (Floating Point Numbers)
-- `float32`: ทศนิยมขนาด 32 บิต
-- `float64`: ทศนิยมขนาด 64 บิต (แนะนำให้ใช้เป็นค่าเริ่มต้น)
+- `float32`: ความแม่นยำระดับหลักทศนิยมประมาณ 7 ตำแหน่ง
+- `float64`: ความแม่นยำระดับหลักทศนิยมประมาณ 15 ตำแหน่ง (**นิยมใช้ที่สุด**)
 
 ### 3. ค่าความจริง (Boolean)
-- `bool`: เก็บค่า `true` หรือ `false`
+- `bool`: มีเพียงสองค่าคือ `true` (จริง) หรือ `false` (เท็จ) มักใช้ในการตรวจสอบเงื่อนไข `if-else`.
 
 ### 4. ข้อความ (String)
-- `string`: ชุดของตัวอักษร (Sequence of bytes) โดยปกติจะเป็น UTF-8
+- `string`: คือชุดของตัวอักษรที่แก้ไขไม่ได้ (Immutable) ถูกเก็บในรูปแบบ UTF-8 โดยปกติ.
 
-### 5. จำนวนเชิงซ้อน (Complex Numbers)
-- `complex64`, `complex128`
+---
 
-## ตัวอย่างรหัสต้นฉบับ (Example Code)
+## ตัวอย่างรหัสต้นฉบับแบบละเอียด (Detailed Examples)
 
+### การใช้งาน Integer และ Overflow เบื้องต้น
 ```go
 package main
 
 import "fmt"
 
 func main() {
-    // 1. Integer
-    var age int = 25
-    var population uint = 1000000
-
-    // 2. Floating Point
-    var price float64 = 99.50
-    pi := 3.14159 // Short declaration (Go assumes float64)
-
-    // 3. Boolean
-    var isReady bool = true
-
-    // 4. String
-    var name string = "Gopher"
-    message := "Hello, Go!"
-
-    fmt.Printf("Age: %d, Type: %T\n", age, age)
-    fmt.Printf("Price: %.2f, Type: %T\n", price, price)
-    fmt.Printf("Is Ready: %t, Type: %T\n", isReady, isReady)
-    fmt.Printf("Name: %s, Type: %T\n", name, name)
+    var a int = 100
+    var b int8 = 127 // ค่าสูงสุดของ int8
+    
+    fmt.Printf("Value a: %v, Type: %T\n", a, a)
+    fmt.Printf("Max int8: %v\n", b)
+    
+    // การแปลงชนิดข้อมูล (Type Conversion)
+    // Go จะไม่ยอมให้บวกคนละ Type กันตรงๆ เช่น int + int8
+    sum := a + int(b) 
+    fmt.Println("Sum:", sum)
 }
 ```
+
+### การใช้งาน Floating Point และความแม่นยำ
+```go
+package main
+
+import "fmt"
+
+func main() {
+    price := 99.99     // Go จะเดาว่าเป็น float64 อัตโนมัติ
+    var tax float32 = 0.07
+    
+    // ต้องแปลง float32 เป็น float64 ก่อนคำนวณร่วมกัน
+    total := price + float64(tax)
+    
+    fmt.Printf("Total: %.2f\n", total)
+}
+```
+
+### การใช้งาน String และ Multi-line
+```go
+package main
+
+import "fmt"
+
+func main() {
+    name := "Gopher"
+    
+    // String ปกติ (Interpret string)
+    msg := "Hello, " + name + "!\nWelcome to Go."
+    
+    // Raw String Literal (เก็บตามที่พิมพ์ รวมถึงการขึ้นบรรทัดใหม่)
+    longMsg := `
+        This is a
+        multi-line
+        string in Go.
+    `
+    
+    fmt.Println(msg)
+    fmt.Println(longMsg)
+    fmt.Println("ความยาวชื่อ:", len(name), "ตัวอักษร")
+}
+```
+
+### ค่าเริ่มต้น (Zero Values)
+ใน Go หากเราประกาศตัวแปรแล้วไม่กำหนดค่า มันจะมีค่าเริ่มต้นให้เสมอ:
+- `int`, `float`: `0`
+- `bool`: `false`
+- `string`: `""` (ว่างเปล่า)
+
+```go
+var i int
+var f float64
+var b bool
+var s string
+fmt.Printf("Values: %v, %v, %v, %q\n", i, f, b, s) 
+// ผลลัพธ์: Values: 0, 0, false, ""
+```
+
+---
+
+## สรุปคำแนะนำสำหรับผู้เริ่มต้น
+1. ใช้ `int` สำหรับเลขจำนวนเต็มทั่วไป เว้นแต่จะมีความจำเป็นต้องระบุขนาด
+2. ใช้ `float64` สำหรับทศนิยมเสมอเพื่อความแม่นยำ
+3. การคำนวณข้ามชนิดข้อมูล (เช่น `int` + `float64`) **ต้องทำ Type Conversion เสมอ**
+4. ระวังเรื่อง **Case Sensitivity**: `myVar` กับ `MyVar` คือคนละตัวกัน (และมีผลเรื่องการเข้าถึงจากภายนอก package ด้วย)
 
 ## แหล่งอ้างอิงและลิงก์ที่เกี่ยวข้อง
 - [[Concept - Go Introduction]]
