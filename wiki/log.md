@@ -44,11 +44,6 @@ Append-only record of wiki maintenance and ingests.
 - Detailed expansion of "Comparing Arrays" with compile-time warnings, real-world Hash/Checksum scenarios, comparison with Slices, and usage of `reflect.DeepEqual`.
 - Finalized Table of Contents (TOC) with all sub-headers for improved navigation.
 
-## [2026-05-06] [Create] | Summary - Gemini for Google Workspace Prompting Guide 101_Full
-- Generated a comprehensive summary following the exact Table of Contents of the guide.
-- Covered foundational sections (Effective Prompts, Introduction, Leveling Up) and all 11 professional roles.
-- Added expanded bilingual (Thai & English) examples for each section to demonstrate powerful prompting techniques.
-- Updated [[index.md]].
 ## [2026-05-04] [Edit] | Concept - Go Introduction
 - Expanded content for beginners with detailed explanations of package structure, variables, constants, and control structures.
 - Added multiple code examples including If-Else, For Loop, and Functions.
@@ -83,3 +78,8 @@ Append-only record of wiki maintenance and ingests.
 - Detailed expansion of "Comparing Arrays" with compile-time warnings, real-world Hash/Checksum scenarios, comparison with Slices (including code examples), and the usage of `reflect.DeepEqual`.
 - Finalized Table of Contents (TOC) with all sub-headers for improved navigation.
 
+## [2026-05-06] [Create] | Summary - Gemini for Google Workspace Prompting Guide 101_Full
+- Generated a comprehensive summary following the exact Table of Contents of the guide.
+- Covered foundational sections (Effective Prompts, Introduction, Leveling Up) and all 11 professional roles.
+- Added expanded bilingual (Thai & English) examples for each section to demonstrate powerful prompting techniques.
+- Updated [[index.md]].
