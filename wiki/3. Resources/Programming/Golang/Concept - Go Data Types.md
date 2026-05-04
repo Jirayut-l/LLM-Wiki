@@ -137,5 +137,6 @@ fmt.Printf("Values: %v, %v, %v, %q\n", i, f, b, s)
 4. ระวังเรื่อง **Case Sensitivity**: `myVar` กับ `MyVar` คือคนละตัวกัน (และมีผลเรื่องการเข้าถึงจากภายนอก package ด้วย)
 
 ## แหล่งอ้างอิงและลิงก์ที่เกี่ยวข้อง
+- [[Concept - Go Composite Data Types]] (ประเภทข้อมูลแบบผสม: Array, Slice, Map, Struct)
 - [[Concept - Go Introduction]]
 - [[Summary - Mastering Go 4th Edition]]
