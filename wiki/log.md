@@ -83,3 +83,5 @@ Append-only record of wiki maintenance and ingests.
 - Covered foundational sections (Effective Prompts, Introduction, Leveling Up) and all 11 professional roles.
 - Added expanded bilingual (Thai & English) examples for each section to demonstrate powerful prompting techniques.
 - Updated [[index.md]].
+- Added concluding section 'How to Choose' (????: ??????????????) to guide beginners on selecting the appropriate data type.
+- Updated Table of Contents.

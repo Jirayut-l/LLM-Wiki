@@ -22,6 +22,7 @@ This is the central catalog of the LLM Wiki organized by the PARA method.
 - [[Concept - Go Arrays]]: ข้อมูลชนิดเดียวกันที่มีขนาดคงที่ (Fixed Length) พร้อมวิธีใช้งาน.
 - [[Concept - Go Composite Data Types]]: ประเภทข้อมูลแบบผสม (Array, Slice, Map, Struct) พร้อมตัวอย่างการใช้งานสำหรับผู้เริ่มต้น.
 - [[Concept - Go Data Types]]: ประเภทข้อมูลพื้นฐานในภาษา Go และตัวอย่างการใช้งาน.
+- [[Concept - Go Composite Data Types]]: ประเภทข้อมูลแบบผสม (Array, Slice, Map, Struct) พร้อมตัวอย่างการใช้งานสำหรับผู้เริ่มต้น.
 - [[Concept - Go Generics]]: Flexible and reusable code using type parameters.
 - [[Concept - Go Concurrency]]: Goroutines, channels, and synchronization primitives.
 - [[Concept - Go Performance]]: Optimization, benchmarking, and profiling in Go.
