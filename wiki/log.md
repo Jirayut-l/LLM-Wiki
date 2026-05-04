@@ -31,3 +31,6 @@ Append-only record of wiki maintenance and ingests.
 
 ## [2026-05-04] [Create] | README.MD
 - Created project README.MD in Thai language to explain project structure and LLM Wiki Agent workflow.
+
+## [2026-05-04] [Create] | .gitignore
+- Created .gitignore with configurations for System, Obsidian, and IDE files.
