@@ -44,26 +44,16 @@ Append-only record of wiki maintenance and ingests.
 - Detailed expansion of "Comparing Arrays" with compile-time warnings, real-world Hash/Checksum scenarios, comparison with Slices, and usage of `reflect.DeepEqual`.
 - Finalized Table of Contents (TOC) with all sub-headers for improved navigation.
 
-## [2026-05-05] [Ingest] | Gemini for Google Workspace Prompting Guide 101
-- Processed PDF source from `raw/`.
-- Created [[Summary - Gemini for Google Workspace Prompting Guide 101]] with Professor David's synthesis in Thai.
-- Updated [[index.md]].
-
-## [2026-05-06] [Edit] | Summary - Gemini for Google Workspace Prompting Guide 101
-- Refactored summary to include comprehensive bilingual (Thai & English) examples.
-- Added 4-Pillar framework (Persona, Task, Context, Format) details.
-- Integrated powerful usage scenarios (Crisis Comm, Data Analysis, Meeting Prep).
-- Added "Power Up" techniques and updated to October 2024 edition insights.
-- Updated [[index.md]].
-
-## [2026-05-06] [Create] | Summary - Gemini for Google Workspace Prompting Guide 101_1
-- Created a comprehensive role-based deep dive into the prompting guide.
-- Summarized 11 different professional roles from the TOC.
-- Added 5 bilingual (Thai & English) practical prompt examples for each role (55 examples total).
-- Updated [[index.md]].
-
 ## [2026-05-06] [Create] | Summary - Gemini for Google Workspace Prompting Guide 101_Full
 - Generated a comprehensive summary following the exact Table of Contents of the guide.
 - Covered foundational sections (Effective Prompts, Introduction, Leveling Up) and all 11 professional roles.
 - Added expanded bilingual (Thai & English) examples for each section to demonstrate powerful prompting techniques.
 - Updated [[index.md]].
+## [2026-05-04] [Edit] | Concept - Go Introduction
+- Expanded content for beginners with detailed explanations of package structure, variables, constants, and control structures.
+- Added multiple code examples including If-Else, For Loop, and Functions.
+## [2026-05-04] [Edit] | Concept - Go Data Types
+- Enhanced data types page with beginner-focused explanations on Type Conversion, Zero Values, and Numeric precision.
+- Added detailed code examples for Integer overflow handling, Floating point math, and Raw String Literals.
+## [2026-05-04] [Edit] | Concept - Go Data Types
+- Added a Table of Contents (TOC) for improved navigation.

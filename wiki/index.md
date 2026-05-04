@@ -17,7 +17,7 @@ This is the central catalog of the LLM Wiki organized by the PARA method.
 - [[Entity - Mihalis Tsoukalos]]: Author of the "Mastering Go" series.
 
 ### Concepts
-- [[Concept - Go Introduction]]: บทนำพื้นฐานเกี่ยวกับภาษา Go โครงสร้าง และการใช้งานเบื้องต้น.
+- [[Concept - Go Introduction]]: บทนำพื้นฐาน, โครงสร้างโปรแกรม, การควบคุมทิศทาง (Control Structures) และตัวอย่างโค้ดสำหรับผู้เริ่มต้น.
 - [[Concept - Go Data Types]]: ประเภทข้อมูลพื้นฐานในภาษา Go และตัวอย่างการใช้งาน.
 - [[Concept - Go Generics]]: Flexible and reusable code using type parameters.
 - [[Concept - Go Concurrency]]: Goroutines, channels, and synchronization primitives.
