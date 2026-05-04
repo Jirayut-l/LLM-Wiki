@@ -42,3 +42,12 @@ Append-only record of wiki maintenance and ingests.
 - Added detailed code examples for Integer overflow handling, Floating point math, and Raw String Literals.
 ## [2026-05-04] [Edit] | Concept - Go Data Types
 - Added a Table of Contents (TOC) for improved navigation.
+
+## [2026-05-04] [Create] | Concept - Go Composite Data Types
+- Created a new concept page for Composite Data Types (Array, Slice, Map, Struct) in Thai with code examples.
+- Updated index.md and cross-linked from Concept - Go Data Types.md.
+
+## [2026-05-04] [Edit] | Concept - Go Composite Data Types
+- Added section on 'Zero Values' for Arrays, Slices, Maps, and Structs.
+- Added concluding section 'How to Choose' (????: ??????????????) to guide beginners on selecting the appropriate data type.
+- Updated Table of Contents.

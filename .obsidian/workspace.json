@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
+                "file": "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary - Mastering Go 4th Edition"
+              "title": "Concept - Go Composite Data Types"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 404.5
   },
   "right": {
     "id": "faf4a43fb7e4c89a",
@@ -183,10 +183,15 @@
   },
   "active": "082dd485dc51bc4d",
   "lastOpenFiles": [
-    "README.MD",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Concurrency.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Data Types.md",
     "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
     "wiki/3. Resources/Programming/Golang/Entity - Mihalis Tsoukalos.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Performance.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Introduction.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Generics.md",
+    "README.MD",
     "wiki/index.md",
     "GEMINI.md",
     "wiki/3. Resources/Concept - Go Performance.md",
