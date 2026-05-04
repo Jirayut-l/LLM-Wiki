@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "b8e7402dc910fa84",
+    "type": "split",
+    "children": [
+      {
+        "id": "66061e47c580e95e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "082dd485dc51bc4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Summary - Mastering Go 4th Edition"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "78ea8df8b6b531fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd95f5d00d39a712",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b01d21e0a2d6d4ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3b090cf084880c25",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f629b6154af08605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "faf4a43fb7e4c89a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e8a7a000a89d1a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65f12189eea7059",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6c3218b2a54fdbbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "eac4ae51d8a16154",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ad4ef5e7fc8297d7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b0aee52841c219e8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/Concept - Go Introduction.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Concept - Go Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "082dd485dc51bc4d",
+  "lastOpenFiles": [
+    "README.MD",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Data Types.md",
+    "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
+    "wiki/3. Resources/Programming/Golang/Entity - Mihalis Tsoukalos.md",
+    "wiki/index.md",
+    "GEMINI.md",
+    "wiki/3. Resources/Concept - Go Performance.md",
+    "wiki/3. Resources/Concept - Go Concurrency.md",
+    "wiki/3. Resources/Concept - Go Generics.md",
+    "wiki/3. Resources/Concept - Go Introduction.md",
+    "wiki/3. Resources/Summary - Mastering Go 4th Edition.md",
+    "wiki/4. Archives",
+    "wiki/3. Resources",
+    "wiki/2. Areas",
+    "wiki/1. Projects",
+    "wiki/Summary - Mastering Go 4th Edition.md",
+    "wiki/Concept - Go Introduction.md",
+    "wiki/Entity - Mihalis Tsoukalos.md",
+    "wiki/log.md",
+    "wiki/Concept - Go Performance.md",
+    "wiki/Concept - Go Generics.md",
+    "wiki/Concept - Go Concurrency.md",
+    "raw",
+    "wiki"
+  ]
+}

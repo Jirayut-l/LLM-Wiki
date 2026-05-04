@@ -1,0 +1,25 @@
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Obsidian specific
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/indexed-*-*
+.obsidian/plugins/obsidian-git/
+
+# IDE specific
+.vscode/
+.idea/
+
+# General
+*.tmp
+*.log
+.env
+.env.local
