@@ -13,7 +13,7 @@ A comprehensive guide to modern Go programming, covering advanced topics, perfor
 
 1.  **[[Concept - Go Introduction|A Quick Introduction to Go]]**
 2.  **[[Concept - Go Data Types|Basic Go Data Types]]**
-3.  **[[Concept - Go Composite Types|Composite Data Types]]**
+3.  **[[Concept - D|Composite Data Types]]**
 4.  **[[Concept - Go Generics|Go Generics]]**
 5.  **[[Concept - Go Reflection and Interfaces|Reflection and Interfaces]]**
 6.  **[[Concept - Go Packages and Functions|Go Packages and Functions]]**
