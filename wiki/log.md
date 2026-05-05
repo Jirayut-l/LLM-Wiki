@@ -77,5 +77,9 @@ Append-only record of wiki maintenance and ingests.
 ## [2026-05-05] [Edit] | Concept - Go Arrays
 - Added a Table of Contents (TOC) for improved navigation.
 - Expanded content for freshmen: Iterating, Multidimensional Arrays, Length, Passing Arrays to Functions, Zero Values, and Comparison.
-- Detailed expansion of "Iterating Over Arrays" section with syntax variations (Standard for-loop vs range-loop).
+- Detailed expansion of "Iterating Over Arrays" section with syntax variations.
+- Enhanced "Passing Arrays to Functions" with "Pass by Value" demonstration and Slices as Best Practice.
+- Expanded "Zero Values in Arrays" with a comparison table and best practices.
+- Detailed expansion of "Comparing Arrays" with compile-time warnings, real-world Hash/Checksum scenarios, comparison with Slices (including code examples), and the usage of `reflect.DeepEqual`.
+- Finalized Table of Contents (TOC) with all sub-headers for improved navigation.
 
