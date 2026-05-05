@@ -85,3 +85,16 @@ Append-only record of wiki maintenance and ingests.
 - Updated [[index.md]].
 - Added concluding section 'How to Choose' (????: ??????????????) to guide beginners on selecting the appropriate data type.
 - Updated Table of Contents.
+
+## [2026-05-04] [Edit] | Concept - Go Data Types
+- Removed "Composite Data Types" section and related links as per user request to separate basic and composite types.
+
+## [2026-05-04] [Edit] | Concept - Go Arrays
+- Enhanced "Example when to use" section with practical use cases (Days, Directions, RGB).
+- Added a detailed Go code example illustrating array usage for fixed-size data.
+
+## [2026-05-05] [Edit] | Concept - Go Arrays
+- Added a Table of Contents (TOC) for improved navigation.
+- Expanded content for freshmen: Iterating, Multidimensional Arrays, Length, Passing Arrays to Functions, Zero Values, and Comparison.
+- Detailed expansion of "Iterating Over Arrays" section with syntax variations (Standard for-loop vs range-loop).
+
