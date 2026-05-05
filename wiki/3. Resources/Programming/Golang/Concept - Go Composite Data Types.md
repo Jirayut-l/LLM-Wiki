@@ -21,32 +21,9 @@ tags:
 ---
 
 ## 1. Arrays (แถวลำดับ)
-Array คือชุดของข้อมูลประเภทเดียวกันที่มี **ขนาดคงที่** (Fixed Length) ขนาดของ Array ถือเป็นส่วนหนึ่งของชนิดข้อมูล
+Array คือชุดของข้อมูลประเภทเดียวกันที่มี **ขนาดคงที่** (Fixed Length) โดยขนาดถือเป็นส่วนหนึ่งของชนิดข้อมูล
 
-**จุดเด่น:**
-- เก็บข้อมูลชนิดเดียวกัน
-- ต้องระบุขนาดตั้งแต่ตอนประกาศ และเปลี่ยนขนาดไม่ได้
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-    // ประกาศ Array ขนาด 3 เก็บชนิดข้อมูล string
-    var colors [3]string
-    colors[0] = "Red"
-    colors[1] = "Green"
-    colors[2] = "Blue"
-
-    // ประกาศพร้อมกำหนดค่า (Array Literal)
-    numbers := [5]int{10, 20, 30, 40, 50}
-
-    fmt.Println("Colors:", colors)
-    fmt.Println("First number:", numbers[0])
-    fmt.Println("Length of numbers:", len(numbers))
-}
-```
+**รายละเอียดเพิ่มเติม:** ดูที่หน้า [[Concept - Go Arrays]]
 
 ---
 
