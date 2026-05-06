@@ -181,8 +181,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "eb914f36918d3845",
+  "active": "b01d21e0a2d6d4ea",
   "lastOpenFiles": [
+    "wiki-linker.skill",
+    "wiki-linker.skill.zip",
+    "code-analyzer.skill",
+    "code-analyzer.skill.zip",
+    "professor-david.skill",
+    "professor-david.skill.zip",
+    "wiki-agent.skill",
+    "wiki-agent.skill.zip",
     "wiki/log.md",
     "wiki/index.md",
     "GEMINI.md",
@@ -206,14 +214,10 @@
     "wiki/4. Archives",
     "wiki/3. Resources",
     "wiki/2. Areas",
-    "wiki/1. Projects",
     "wiki/Summary - Mastering Go 4th Edition.md",
     "wiki/Concept - Go Introduction.md",
     "wiki/Entity - Mihalis Tsoukalos.md",
     "wiki/Concept - Go Performance.md",
-    "wiki/Concept - Go Generics.md",
-    "wiki/Concept - Go Concurrency.md",
-    "raw",
-    "wiki"
+    "wiki/Concept - Go Generics.md"
   ]
 }

@@ -10,8 +10,8 @@ This is the central catalog of the LLM Wiki organized by the PARA method.
 
 ## 3. Resources
 ### Sources
+- [[Summary - Gemini for Google Workspace Prompting Guide 101_Full]]: เจาะลึกเทคนิคการเขียน Prompt สำหรับ Google Workspace ครอบคลุม 11 สายอาชีพ พร้อมตัวอย่าง 2 ภาษา.
 - [[Summary - Mastering Go 4th Edition]]: Comprehensive guide to modern Go programming (4th Edition, 2024).
-
 
 ### Entities
 - [[Entity - Mihalis Tsoukalos]]: Author of the "Mastering Go" series.

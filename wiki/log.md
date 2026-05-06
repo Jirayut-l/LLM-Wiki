@@ -4,6 +4,7 @@ Append-only record of wiki maintenance and ingests.
 
 | Date | Action | Target | Summary |
 | :--- | :--- | :--- | :--- |
+| 2026-05-06 | `[Index]` | [[index.md]] | Synchronized index with file system (added Gemini Prompting Guide). |
 | 2026-05-06 | `[Create]` | [[Summary - Gemini for Google Workspace Prompting Guide 101_Full]] | Generated comprehensive summary with 11 roles and bilingual examples. |
 | 2026-05-06 | `[Index]` | [[index.md]] | Updated index with new summary page. |
 | 2026-05-05 | `[Edit]` | [[Concept - Go Arrays]] | Added TOC, expanded content (Iterating, Zero Values, Comparison) for beginners. |

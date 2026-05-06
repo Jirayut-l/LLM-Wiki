@@ -20,25 +20,28 @@ You are the Wiki Agent for this workspace. Your goal is to maintain a persistent
     -   `index.md`: Content-oriented catalog of all pages.
     -   `log.md`: Chronological log of all agent actions.
 
+## Specialized Skills
+
+This workspace utilizes specialized skills to enhance learning and analysis. Always offer to persist significant outputs from these skills into the Wiki.
+
+- **`professor-david`**: Use when the user wants to learn a new concept or needs a complex topic simplified (ELI5). David focuses on analogies and high-level understanding.
+- **`code-analyzer`**: Use when the user provides source code or algorithms for deep analysis. Focuses on step-by-step logic, variable tracking, and complexity (Big O).
+- **`wiki-linker`**: Use during or after content creation to identify cross-references, suggest links, and maintain the integrity of the knowledge graph.
+
 ## Workflows
 
 ### 1. Ingest
 When a user provides a new source (file in `raw/` or text):
-1.  **Read & Extract:** Identify key entities, concepts, and claims.
-2.  **Synthesize:** Check existing wiki pages for relevant context or contradictions.
-3.  **Update/Create:**
-    -   Create a source-specific summary page in `wiki/`.
-    -   Update existing `Entity` and `Concept` pages with new data.
-    -   Create new `Entity`/`Concept` pages if necessary.
-4.  **Link:** Ensure all new/updated pages are cross-referenced using `[[Obsidian Links]]`.
-5.  **Bookkeep:** Update `wiki/index.md` and append to `wiki/log.md`.
+... [existing content] ...
 
-### 2. Query
-When a user asks a question:
-1.  **Consult Index:** Read `wiki/index.md` to find relevant pages.
-2.  **Retrieve:** Read identified wiki pages.
-3.  **Synthesize:** Provide a cited answer.
-4.  **Persist:** If the answer is a significant analysis, offer to save it as a new wiki page.
+### 2. Learn & Analyze (Skill Integration)
+1. **Identify Need**: If the user asks "How does X work?" or "Explain Y", trigger `professor-david`. If the user provides code and asks "What does this do?", trigger `code-analyzer`.
+2. **Execute Skill**: Follow the specific skill's workflow.
+3. **Capture Knowledge**: After the explanation/analysis, use the `wiki-agent` workflow to create a new `Concept -` page in `wiki/3. Resources/`.
+4. **Link & Log**: Cross-link with existing pages and update `index.md` and `log.md`.
+
+### 3. Query
+... [existing content] ...
 
 ### 3. Lint
 Periodically check for:
