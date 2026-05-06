@@ -34,3 +34,36 @@ Append-only record of wiki maintenance and ingests.
 
 ## [2026-05-04] [Create] | .gitignore
 - Created .gitignore with configurations for System, Obsidian, and IDE files.
+
+## [2026-05-05] [Edit] | Concept - Go Arrays
+- Added a Table of Contents (TOC) for improved navigation.
+- Expanded content for freshmen: Iterating, Multidimensional Arrays, Length, Passing Arrays to Functions, Zero Values, and Comparison.
+- Detailed expansion of "Iterating Over Arrays" section with syntax variations.
+- Enhanced "Passing Arrays to Functions" with "Pass by Value" demonstration and Slices as Best Practice.
+- Expanded "Zero Values in Arrays" with a comparison table and best practices.
+- Detailed expansion of "Comparing Arrays" with compile-time warnings, real-world Hash/Checksum scenarios, comparison with Slices, and usage of `reflect.DeepEqual`.
+- Finalized Table of Contents (TOC) with all sub-headers for improved navigation.
+
+## [2026-05-05] [Ingest] | Gemini for Google Workspace Prompting Guide 101
+- Processed PDF source from `raw/`.
+- Created [[Summary - Gemini for Google Workspace Prompting Guide 101]] with Professor David's synthesis in Thai.
+- Updated [[index.md]].
+
+## [2026-05-06] [Edit] | Summary - Gemini for Google Workspace Prompting Guide 101
+- Refactored summary to include comprehensive bilingual (Thai & English) examples.
+- Added 4-Pillar framework (Persona, Task, Context, Format) details.
+- Integrated powerful usage scenarios (Crisis Comm, Data Analysis, Meeting Prep).
+- Added "Power Up" techniques and updated to October 2024 edition insights.
+- Updated [[index.md]].
+
+## [2026-05-06] [Create] | Summary - Gemini for Google Workspace Prompting Guide 101_1
+- Created a comprehensive role-based deep dive into the prompting guide.
+- Summarized 11 different professional roles from the TOC.
+- Added 5 bilingual (Thai & English) practical prompt examples for each role (55 examples total).
+- Updated [[index.md]].
+
+## [2026-05-06] [Create] | Summary - Gemini for Google Workspace Prompting Guide 101_Full
+- Generated a comprehensive summary following the exact Table of Contents of the guide.
+- Covered foundational sections (Effective Prompts, Introduction, Leveling Up) and all 11 professional roles.
+- Added expanded bilingual (Thai & English) examples for each section to demonstrate powerful prompting techniques.
+- Updated [[index.md]].
