@@ -19,6 +19,7 @@ This is the central catalog of the LLM Wiki organized by the PARA method.
 ### Concepts
 - [[Concept - Go Introduction]]: บทนำพื้นฐาน, โครงสร้างโปรแกรม, การควบคุมทิศทาง (Control Structures) และตัวอย่างโค้ดสำหรับผู้เริ่มต้น.
 - [[Concept - Go Data Types]]: ประเภทข้อมูลพื้นฐานในภาษา Go และเป็นหน้าหลักสำหรับข้อมูลประเภทต่างๆ.
+- [[Concept - Go Slices]]: เจาะลึกการใช้งาน Slice ตั้งแต่พื้นฐานจนถึงเทคนิคระดับสูง (Memory Management, Shared Memory).
 - [[Concept - Go Arrays]]: ข้อมูลชนิดเดียวกันที่มีขนาดคงที่ (Fixed Length) พร้อมวิธีใช้งาน.
 - [[Concept - Go Composite Data Types]]: ประเภทข้อมูลแบบผสม (Array, Slice, Map, Struct) พร้อมตัวอย่างการใช้งานสำหรับผู้เริ่มต้น.
 - [[Concept - Go Generics]]: Flexible and reusable code using type parameters.

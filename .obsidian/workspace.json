@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "Concept - Go Composite Data Types"
             }
           }
         ]
@@ -181,8 +181,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "b01d21e0a2d6d4ea",
+  "active": "eb914f36918d3845",
   "lastOpenFiles": [
+    "wiki/3. Resources/Programming/Golang/Concept - Go Arrays.md",
+    "wiki/log.md",
+    "Project - Go Professional Learning Path.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Slices.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
+    "wiki/1. Projects/Project - Go Professional Learning Path.md",
+    "GEMINI.md",
+    "wiki/index.md",
+    "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
+    "wiki/3. Resources/Summary - Gemini for Google Workspace Prompting Guide 101_Full.md",
     "wiki-linker.skill",
     "wiki-linker.skill.zip",
     "code-analyzer.skill",
@@ -191,17 +201,10 @@
     "professor-david.skill.zip",
     "wiki-agent.skill",
     "wiki-agent.skill.zip",
-    "wiki/log.md",
-    "wiki/index.md",
-    "GEMINI.md",
-    "wiki/3. Resources/Summary - Gemini for Google Workspace Prompting Guide 101_Full.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Arrays.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Concurrency.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Concurrency.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Data Types.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Introduction.md",
-    "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
     "wiki/3. Resources/Programming/Golang/Entity - Mihalis Tsoukalos.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Performance.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Generics.md",
@@ -213,11 +216,8 @@
     "wiki/3. Resources/Summary - Mastering Go 4th Edition.md",
     "wiki/4. Archives",
     "wiki/3. Resources",
-    "wiki/2. Areas",
     "wiki/Summary - Mastering Go 4th Edition.md",
     "wiki/Concept - Go Introduction.md",
-    "wiki/Entity - Mihalis Tsoukalos.md",
-    "wiki/Concept - Go Performance.md",
-    "wiki/Concept - Go Generics.md"
+    "wiki/Entity - Mihalis Tsoukalos.md"
   ]
 }
