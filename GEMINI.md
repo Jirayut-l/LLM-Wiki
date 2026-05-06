@@ -62,6 +62,12 @@ Organize by category:
 Each entry: `- [[Page Name]]: One-line summary.`
 
 ## Log Formatting (`wiki/log.md`)
-Append-only:
-`## [YYYY-MM-DD] [Action] | [Title/Description]`
-- Brief summary of changes made.
+Maintain a single Markdown table, sorted by date (newest first). For multiple actions on the same day, add separate rows or combine them if they relate to the same target.
+
+| Date | Action | Target | Summary |
+| :--- | :--- | :--- | :--- |
+| YYYY-MM-DD | `[Type]` | [[Link]] | Brief description of changes. |
+
+- **Actions:** `[Create]`, `[Edit]`, `[Ingest]`, `[Index]`, `[Refactor]`, `[Arch]`.
+- **Constraint:** Always keep the latest entry at the top (under the header).
+- **Archiving:** When the table exceeds 100 rows, move older entries to a yearly archive file in `wiki/4. Archives/`.
