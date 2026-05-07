@@ -26,5 +26,19 @@ This is the central catalog of the LLM Wiki organized by the PARA method.
 - [[Concept - Go Concurrency]]: Goroutines, channels, and synchronization primitives.
 - [[Concept - Go Performance]]: Optimization, benchmarking, and profiling in Go.
 
+### Artificial Intelligence & Prompting
+- [[Concept - Effective Prompting]]: พื้นฐานการเขียน Prompt และหลักการ 4 เสาหลัก (Persona, Task, Context, Format).
+- [[Concept - Advanced Prompting Techniques]]: สรุปเทคนิคขั้นสูง (CoT, ToT, Step-back) และ Best Practices.
+- [[Concept - Reasoning Prompting]]: เจาะลึกเทคนิคการใช้เหตุผล (Chain of Thought, Self-consistency, Tree of Thoughts).
+- [[Concept - ReAct Prompting]]: แนวคิด Reason & Act สำหรับการสร้าง AI Agent.
+- [[Concept - LLM Configuration & Developer Guide]]: คู่มือสำหรับนักพัฒนา: การตั้งค่า Temperature, Top-K/P และ Code Prompting.
+
+#### Prompt Library (คลัง Prompt แยกตามสายอาชีพ)
+- [[Role - Developer & IT]]: คลัง Prompt สำหรับนักพัฒนาและไอที.
+- [[Role - Business & Management]]: คลัง Prompt สำหรับผู้บริหารและจัดการโครงการ.
+- [[Role - Customer Service & Communications]]: คลัง Prompt สำหรับฝ่ายบริการลูกค้าและสื่อสารองค์กร.
+- [[Role - Marketing & Sales]]: คลัง Prompt สำหรับการตลาดและการขาย.
+- [[Role - HR & Admin]]: คลัง Prompt สำหรับทรัพยากรบุคคลและงานสนับสนุน.
+
 ## 4. Archives
 *No archived items.*

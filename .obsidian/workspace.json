@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e5307d0734fa3ae0",
+        "id": "6a6e5846a0c783e0",
         "type": "tabs",
         "children": [
           {
-            "id": "eb914f36918d3845",
+            "id": "7e0778e2cbb2291f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
+                "file": "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Concept - Reasoning Prompting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concept - Go Composite Data Types"
+              "title": "Concept - Reasoning Prompting"
             }
           }
         ]
@@ -181,43 +181,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "eb914f36918d3845",
+  "active": "7e0778e2cbb2291f",
   "lastOpenFiles": [
-    "wiki/3. Resources/Programming/Golang/Concept - Go Arrays.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Concept - ReAct Prompting.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Concept - LLM Configuration & Developer Guide.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Concept - Advanced Prompting Techniques.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Concept - Effective Prompting.md",
+    "wiki/3. Resources/Artificial Intelligence/Gemini For Google Prompting Guide 101/Summary - Gemini for Google Workspace Prompting Guide 101_Full.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Concept - Reasoning Prompting.md",
+    "raw/Prompt Engineering_v4_google.pdf",
+    "wiki/3. Resources/Artificial Intelligence/Gemini For Google Prompting Guide 101",
+    "raw/gemini-for-google-workspace-prompting-guide-101.pdf",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Prompt Library/Role - Customer Service & Communications.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Prompt Library/Role - Developer & IT.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Prompt Library/Role - HR & Admin.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Prompt Library/Role - Business & Management.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Prompt Library/Role - Marketing & Sales.md",
     "wiki/log.md",
+    "wiki/index.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering/Prompt Library",
+    "Prompt Library.md",
+    "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
+    "wiki/3. Resources/Artificial Intelligence/Prompt Engineering",
+    "wiki/3. Resources/Artificial Intelligence",
+    "wiki/3. Resources/Summary - Gemini for Google Workspace Prompting Guide 101_Full.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
+    "wiki/3. Resources/Programming/Golang/Concept - Go Arrays.md",
     "Project - Go Professional Learning Path.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Slices.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Composite Data Types.md",
     "wiki/1. Projects/Project - Go Professional Learning Path.md",
     "GEMINI.md",
-    "wiki/index.md",
-    "wiki/3. Resources/Programming/Golang/Summary - Mastering Go 4th Edition.md",
-    "wiki/3. Resources/Summary - Gemini for Google Workspace Prompting Guide 101_Full.md",
     "wiki-linker.skill",
     "wiki-linker.skill.zip",
     "code-analyzer.skill",
     "code-analyzer.skill.zip",
-    "professor-david.skill",
-    "professor-david.skill.zip",
-    "wiki-agent.skill",
-    "wiki-agent.skill.zip",
     "wiki/3. Resources/Programming/Golang/Concept - Go Concurrency.md",
     "wiki/3. Resources/Programming/Golang/Concept - Go Concurrency.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Data Types.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Introduction.md",
-    "wiki/3. Resources/Programming/Golang/Entity - Mihalis Tsoukalos.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Performance.md",
-    "wiki/3. Resources/Programming/Golang/Concept - Go Generics.md",
-    "README.MD",
-    "wiki/3. Resources/Concept - Go Performance.md",
-    "wiki/3. Resources/Concept - Go Concurrency.md",
-    "wiki/3. Resources/Concept - Go Generics.md",
-    "wiki/3. Resources/Concept - Go Introduction.md",
-    "wiki/3. Resources/Summary - Mastering Go 4th Edition.md",
-    "wiki/4. Archives",
-    "wiki/3. Resources",
-    "wiki/Summary - Mastering Go 4th Edition.md",
-    "wiki/Concept - Go Introduction.md",
-    "wiki/Entity - Mihalis Tsoukalos.md"
+    "wiki/3. Resources/Programming/Golang/Concept - Go Data Types.md"
   ]
 }

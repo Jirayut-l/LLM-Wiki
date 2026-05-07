@@ -2,6 +2,13 @@ Append-only record of wiki maintenance and ingests.
 
 | Date       | Action     | Target                                                             | Summary                                                                         |
 | :--------- | :--------- | :----------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| 2026-05-07 | `[Refactor]` | [[Summary - Gemini for Google Workspace Prompting Guide 101_Full]] | ยุบรวมเนื้อหาที่ซ้ำซ้อนและแยก Prompt ไปไว้ใน Role Libraries. |
+| 2026-05-07 | `[Create]` | [[Role - Customer Service & Communications]] | สร้างคลัง Prompt สำหรับงานบริการลูกค้าและสื่อสารองค์กร. |
+| 2026-05-07 | `[Edit]` | [[Role - Business & Management]] | เพิ่ม Prompt สำหรับ Small Business และ Startups. |
+| 2026-05-07 | `[Edit]` | [[Role - Developer & IT]] | เพิ่ม Prompt สำหรับการสรุปรายงานเชิงเทคนิค. |
+| 2026-05-06 | `[Move]`   | Summary - Gemini Prompting Guide                                   | Relocated to `wiki/3. Resources/Artificial Intelligence/Prompt Engineering/`. |
+| 2026-05-06 | `[Create]` | Prompt Library (Role-Based)                                        | Created 4 role-based prompt libraries: Dev, Business, Marketing, and HR.        |
+| 2026-05-06 | `[Create]` | Advanced Prompt Engineering Base                                   | Created 5 concept pages: Effective, Advanced, Reasoning, ReAct, and Dev Guide.  |
 | 2026-05-06 | `[Delete]` | Project - Go Professional Learning Path                            | Removed the project file per user request.                                      |
 | 2026-05-06 | `[Create]` | [[Concept - Go Slices]]                                            | Created deep-dive guide for Slices (Header, Memory Leak, Pro Tips).             |
 | 2026-05-06 | `[Edit]`   | [[index.md]] / [[Concept - Go Composite Data Types]]               | Linked new Slice concept page and updated index.                                |
