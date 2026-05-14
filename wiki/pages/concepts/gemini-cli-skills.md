@@ -26,5 +26,7 @@ In the LLM Wiki, skills are managed in two layers:
 - [[skill-json-canvas|JSON Canvas]]: Visual knowledge mapping.
 
 ## Related
+- [[skill-creation|Skill Creation]]
+- [[best-practices-for-skill-creators-summary|Best Practices for Skill Creators]]
 - [[llm-wiki-concept-summary|LLM Wiki Concept Summary]]
 - [[index|Wiki Index]]
