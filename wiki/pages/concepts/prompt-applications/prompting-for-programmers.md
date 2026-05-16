@@ -38,5 +38,27 @@ date: 2026-05-15
 > [!tip] เคล็ดลับสำหรับโปรแกรมเมอร์
 > ระบุสภาพแวดล้อมการทำงานเสมอ เช่น "ใช้ React 18 ร่วมกับ TypeScript" เพื่อให้ได้โค้ดที่พร้อมใช้งานจริง
 
+## 🇬🇧 English Prompt Examples
+
+### 1. Unit Test Generation (TDD/BDD)
+> [!example] Prompt Example
+> "Generate comprehensive unit tests for the following React component using Jest and React Testing Library. Include edge cases for missing props and simulate user click events."
+
+### 2. Code Review & Security Audit
+> [!example] Prompt Example
+> "Perform a thorough code review of this Python script. Focus on identifying potential security vulnerabilities (like SQL injection or XSS), performance bottlenecks, and adherence to PEP 8 standards."
+
+### 3. Database & SQL Optimization
+> [!example] Prompt Example
+> "Optimize this PostgreSQL query to reduce execution time. Explain the changes made and suggest any indexes that should be created on the `users` and `orders` tables to support this query."
+
+### 4. API Documentation (JSDoc/Docstrings)
+> [!example] Prompt Example
+> "Generate detailed JSDoc comments for this TypeScript service class. Ensure all parameters, return types, and potential thrown errors are documented."
+
+### 5. Modernization & Refactoring
+> [!example] Prompt Example
+> "Refactor this legacy Java code to use modern Java 21 features, such as Pattern Matching and Records. Improve modularity and ensure it follows SOLID principles."
+
 ---
 [[prompt-engineering-v7-summary|กลับสู่สรุปเทคนิค]] | [[index|กลับสู่สารบัญ]]

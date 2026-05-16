@@ -1,0 +1,27 @@
+filters: file.path.contains("wiki/pages/concepts") && file.ext == "md" && file.name != "concepts.base"
+formulas:
+  display_title: if(title, title, file.basename)
+  display_desc: if(description, description, "*(ไม่มีคำอธิบาย)*")
+properties:
+  formula.display_title:
+    displayName: หัวข้อ (Concept)
+  formula.display_desc:
+    displayName: สรุปย่อ (Description)
+  tags:
+    displayName: Tags
+views:
+  - type: table
+    name: รายการแนวคิด
+    order:
+      - file.name
+      - formula.display_title
+      - formula.display_desc
+      - tags
+    summaries:
+      file.name: Unique
+  - type: cards
+    name: การ์ดสรุปใจความ
+    order:
+      - formula.display_title
+      - formula.display_desc
+      - tags

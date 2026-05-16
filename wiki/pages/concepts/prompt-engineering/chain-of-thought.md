@@ -3,6 +3,7 @@ title: การพรอมต์แบบลำดับความคิด 
 tags:
   - concept
   - prompting-technique
+description: "เทคนิคการกระตุ้นให้ LLM แสดงขั้นตอนการคิดทีละสเต็ปเพื่อเพิ่มความแม่นยำในการหาเหตุผล"
 source: "raw/Prompt Engineering_v7.pdf"
 date: 2026-05-15
 ---

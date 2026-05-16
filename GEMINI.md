@@ -25,8 +25,8 @@ This document defines the architecture and operational rules for the LLM Wiki. A
     3.  Create/Update a summary page in `wiki/pages/summaries/`.
     4.  Update relevant pages in `wiki/pages/entities/`, `wiki/pages/concepts/`, or `wiki/pages/skills/`.
     5.  Update `wiki/index.md`.
-    6.  Append to `wiki/log.md` with prefix `## [YYYY-MM-DD] ingest | <Title>`.
--   **Rule**: Cross-link aggressively. Every new page should link to the index and related pages.
+    6.  Insert at the top of the current month's table in `wiki/log.md` (Reverse Chronological) using the format: `| YYYY-MM-DD | **[ACTION]** | <Title> | <Description> |`.
+- **Rule**: Cross-link aggressively. Every new page should link to the index and related pages.
 
 ### 2. Query
 -   **Trigger**: User asks a question.
@@ -34,14 +34,14 @@ This document defines the architecture and operational rules for the LLM Wiki. A
     1.  Search `wiki/index.md` and `wiki/pages/` subdirectories for context.
     2.  Synthesize an answer with citations to wiki pages.
     3.  If the synthesis is valuable, offer to save it as a new wiki page.
-    4.  Append to `wiki/log.md`.
+    4.  Insert at the top of the current month's table in `wiki/log.md`.
 
 ### 3. Lint
 -   **Trigger**: Periodic health check or user request.
 -   **Process**:
     1.  Identify broken links, orphans, or contradictions.
     2.  Suggest new connections or sources to fill gaps.
-    3.  Append findings to `wiki/log.md`.
+    3.  Insert at the top of the current month's table in `wiki/log.md`.
 
 ## Content Conventions
 
