@@ -9,6 +9,7 @@
 
 | Date       | Action         | Title                                          | Description                                                                                                                            |
 | :--------- | :------------- | :--------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-05-23 | **[REFACTOR]** | Optimize Claude AI Summary                     | Renamed summary file to kebab-case, relocated image assets to assets/, fixed duplicate image reference, and registered in index.md.   |
 | 2026-05-16 | **[REFACTOR]** | Reorganized Concepts Directory                 | Moved concept pages into subdirectories (architecture, prompt-engineering, prompt-applications, general) for better organization.    |
 | 2026-05-16 | **[INGEST]**   | Phase 1: Building Microservices                | สรุปบทที่ 1 'What Are Microservices?' เป็นภาษาไทย                                                                                      |
 | 2026-05-16 | **[UPDATE]**   | English Prompts for Programmers                | Added a dedicated section with 5 advanced English prompt examples for common programming tasks to `prompting-for-programmers.md`.      |

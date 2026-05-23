@@ -3,7 +3,7 @@ title: สรุปเทคนิค Prompt Engineering v7
 tags:
   - summary
   - prompt-engineering
-source: "raw/Prompt Engineering_v7.pdf"
+source: raw/Prompt Engineering_v7.pdf
 date: 2026-05-15
 ---
 
