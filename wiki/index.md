@@ -3,8 +3,8 @@
 Catalog of all knowledge pages in the wiki.
 
 ## Summaries
-- [[building-microservices-ch1-summary|สรุปบทที่ 1: What Are Microservices? (Building Microservices 2nd Ed)]]
 - [[claude-ai-usage|สรุปวิธีการใช้ Claude AI]]: คู่มือการใช้งานและเทคนิคการเขียน Prompt สำหรับ Claude AI.
+- [[claude-code-prompt-caching-summary|Lessons from building Claude Code]]: สรุปแนวทางและ Action Plan ในการจัดการ Prompt Caching
 - [[llm-wiki-concept-summary|LLM Wiki Concept Summary]]: Overview of the LLM Wiki pattern and architecture.
 - [[principle-of-prompting-for-agents|การเขียนพรอมต์สำหรับระบบเอเจนต์ (Principle of Prompting for Agents)]]: สรุปคำแนะนำและเทคนิคสำหรับระบบ AI Agent.
 - [[prompt-engineering-v7-summary|Prompt Engineering v7 Summary]]: Comprehensive guide to prompting techniques and LLM configuration.
@@ -30,6 +30,7 @@ Catalog of all knowledge pages in the wiki.
 - [[tree-of-thoughts|Tree of Thoughts (ToT)]]
 - [[react-prompting|ReAct (Reason & Act)]]
 - [[system-role-contextual-prompting|System, Role, & Contextual Prompting]]
+- [[prompt-caching|Prompt Caching]]
 - [[leveling-up-prompts|Leveling Up Prompts]]
 - [[workspace-prompting-framework|Workspace Prompting Framework]]
 

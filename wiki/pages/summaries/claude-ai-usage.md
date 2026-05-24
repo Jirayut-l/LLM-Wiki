@@ -20,7 +20,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 # สูตรการ prompt ที่ดี
 
-![[Pasted image 20260523131137.png]] 
+![[good-practice-prompt.png]] 
 ### หลักการ Prompt ที่ต้องจำ
 
 **บริบทคือทุกอย่าง** — Claude ไม่รู้อะไรเกี่ยวกับสถานการณ์ของคุณ ยิ่งให้รายละเอียดมาก ยิ่งได้คำตอบที่ตรงจุด สิ่งที่ควรบอกเสมอ:

@@ -1,14 +1,16 @@
 # Wiki Log
 
 > [!info] Log Summary
-> **Last Updated**: 2026-05-23
-> **Total Operations**: 17
+> **Last Updated**: 2026-05-24
+> **Total Operations**: 18
 > **Status**: Optimized (Reverse Chronological, Monthly Table Grouping)
 
 ## May 2026
 
 | Date       | Action         | Title                                          | Description                                                                                                                            |
 | :--------- | :------------- | :--------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-05-24 | **[DELETE]**   | Building Microservices Ch1 Summary             | Deleted building-microservices-ch1-summary.md and removed its references across the wiki.                                              |
+| 2026-05-24 | **[INGEST]**   | Claude Code Prompt Caching                     | Ingested Claude Code prompt caching article. Created summary page and concept page for Prompt Caching.                                 |
 | 2026-05-23 | **[INGEST]**   | Principle of Prompting for Agents              | Ingested Anthropic's Agentic Prompting guide. Created summary page and modular concept pages for Agentic Heuristics and Agentic Evaluations. |
 | 2026-05-23 | **[REFACTOR]** | Optimize Claude AI Summary                     | Renamed summary file to kebab-case, relocated image assets to assets/, fixed duplicate image reference, and registered in index.md.   |
 | 2026-05-16 | **[REFACTOR]** | Reorganized Concepts Directory                 | Moved concept pages into subdirectories (architecture, prompt-engineering, prompt-applications, general) for better organization.    |

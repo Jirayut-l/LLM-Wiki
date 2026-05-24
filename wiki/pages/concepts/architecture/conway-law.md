@@ -25,5 +25,4 @@ Melvin Conway ได้กล่าวไว้ในปี 1968 ว่า:
 
 ---
 **หน้าที่เกี่ยวข้อง:**
-- [[building-microservices-ch1-summary|สรุปบทที่ 1: What Are Microservices?]]
 - [[independent-deployability|การ Deploy อย่างอิสระ]]

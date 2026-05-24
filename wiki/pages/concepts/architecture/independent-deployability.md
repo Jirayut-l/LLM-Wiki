@@ -28,5 +28,4 @@ date: 2026-05-16
 
 ---
 **หน้าที่เกี่ยวข้อง:**
-- [[building-microservices-ch1-summary|สรุปบทที่ 1: What Are Microservices?]]
 - [[monolith-types|รูปแบบของ Monolith]]

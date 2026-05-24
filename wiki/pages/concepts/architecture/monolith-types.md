@@ -32,5 +32,4 @@ date: 2026-05-16
 > Monolith ไม่ใช่ "หนี้ทางเทคนิค" (Legacy) เสมอไป แต่มันคือทางเลือกหนึ่งซึ่งเป็น **ค่าเริ่มต้นที่สมเหตุสมผล (Sensible Default)** สำหรับหลายๆ โครงการ
 
 **หน้าที่เกี่ยวข้อง:**
-- [[building-microservices-ch1-summary|สรุปบทที่ 1: What Are Microservices?]]
 - [[independent-deployability|การ Deploy อย่างอิสระ]]
