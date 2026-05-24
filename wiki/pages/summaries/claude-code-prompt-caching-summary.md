@@ -47,6 +47,32 @@ Prompt caching works by **prefix matching**. The API caches everything from the 
 6. **Monitor Cache Hit Rates**
    - Treat cache misses as incidents. Set up alerts for cache hit rates, as minor drops can drastically impact costs and performance.
 
+## Example: Real Practice
+
+To maximize cache hits, structure your agent's requests following the static-to-dynamic rule. When dynamic information changes, append it rather than editing the base prompt.
+
+**Anti-Pattern (Breaks Cache):**
+```xml
+<!-- Changing the system prompt with every request to update time -->
+<system>You are an AI assistant. Current time: 10:05 AM</system>
+```
+
+**Best Practice (Preserves Cache):**
+```xml
+<!-- 1. System Prompt & Tools (Static - Globally Cached) -->
+<system>You are an AI assistant. <tools>...</tools></system>
+
+<!-- 2. Project Context (Static - Globally Cached) -->
+<project_context>Guidelines...</project_context>
+
+<!-- 3. Conversation Messages (Appended dynamically) -->
+User: "Please check the logs."
+Assistant: "Checking logs..."
+
+<!-- 4. Updates via Messages, NOT System Prompts -->
+User: <system-reminder>Time is now 10:05 AM</system-reminder> "Are there any new errors?"
+```
+
 ---
 **Related Concepts**:
 - [[prompt-caching|Prompt Caching]]

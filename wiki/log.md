@@ -9,6 +9,9 @@
 
 | Date       | Action         | Title                                          | Description                                                                                                                            |
 | :--------- | :------------- | :--------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-05-24 | **[INGEST]**   | Best practices for Claude Code                 | Ingested guide on Claude Code. Created summary page, Claude Code entity, and concepts for Context Window, Plan Mode, Subagents, MCP Servers. |
+| 2026-05-24 | **[INGEST]**   | LLM Tokens Explanation Summary                 | Ingested LLM Tokens Explanation. Created summary page and concept pages for Token, Vocabulary, Tokenizers, and Tiktoken. |
+| 2026-05-24 | **[UPDATE]**   | Claude Code Prompt Caching                     | Added an example for real practice in claude-code-prompt-caching-summary.md.                                                           |
 | 2026-05-24 | **[DELETE]**   | Building Microservices Ch1 Summary             | Deleted building-microservices-ch1-summary.md and removed its references across the wiki.                                              |
 | 2026-05-24 | **[INGEST]**   | Claude Code Prompt Caching                     | Ingested Claude Code prompt caching article. Created summary page and concept page for Prompt Caching.                                 |
 | 2026-05-23 | **[INGEST]**   | Principle of Prompting for Agents              | Ingested Anthropic's Agentic Prompting guide. Created summary page and modular concept pages for Agentic Heuristics and Agentic Evaluations. |

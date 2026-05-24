@@ -7,7 +7,17 @@ tags:
 source: "wiki/pages/concepts/prompting-for-learning.md"
 date: 2026-05-15
 ---
-
+```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+include: 
+exclude: 
+includeLinks: true # Make headings clickable
+hideWhenEmpty: false # Hide TOC if no headings are found
+debugInConsole: false # Print debug info in Obsidian console
+```
 # การเขียนพรอมต์เพื่อการเรียนรู้
 
 เปลี่ยน AI ให้เป็นครูสอนส่วนตัวที่ช่วยให้คุณเข้าใจเรื่องยากๆ ได้เร็วขึ้นและจดจำได้นานขึ้น
@@ -33,6 +43,17 @@ date: 2026-05-15
 เปรียบเทียบสิ่งที่คล้ายคลึงกันเพื่อให้เห็นความต่าง
 > [!example] ตัวอย่างพรอมต์
 > "ช่วยเปรียบเทียบความแตกต่างระหว่าง 'การเรียนรู้ของเครื่อง' (Machine Learning) และ 'การเรียนรู้เชิงลึก' (Deep Learning) ในรูปแบบตาราง"
+
+### 5. **💡 แนะนำ: Prompt ที่ดีที่สุดเพื่อประสิทธิภาพสูงสุด (Best Performance Prompt)**
+
+```markdown
+[บทบาทของ AI]: คุณคือผู้เชี่ยวชาญด้าน...
+[เป้าหมายหลัก]: จงอธิบาย/วิเคราะห์...
+[รูปแบบผลลัพธ์]: สรุปเป็น Bullet points สั้นกระชับ (หลีกเลี่ยงการใช้น้ำท่วมทุ่ง)
+[เงื่อนไขสำคัญ]: 
+- หากต้องใช้โค้ด ให้ใช้ภาษามาตรฐานที่นิยมสูง (เช่น JavaScript/TypeScript) แทนภาษาเฉพาะกลุ่ม เพื่อลดจำนวน Token ในการประมวลผล [00:09:37]
+- ใช้คำศัพท์ที่ตรงประเด็น ชัดเจน ไม่กำกวม
+```
 
 ---
 > [!tip] เคล็ดลับการเรียนรู้

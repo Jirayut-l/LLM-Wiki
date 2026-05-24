@@ -3,14 +3,18 @@
 Catalog of all knowledge pages in the wiki.
 
 ## Summaries
+- [[best-practices-for-claude-code|Best practices for Claude Code]]: Tips and patterns for getting the most out of Claude Code's agentic environment.
 - [[claude-ai-usage|สรุปวิธีการใช้ Claude AI]]: คู่มือการใช้งานและเทคนิคการเขียน Prompt สำหรับ Claude AI.
 - [[claude-code-prompt-caching-summary|Lessons from building Claude Code]]: สรุปแนวทางและ Action Plan ในการจัดการ Prompt Caching
+- [[llm-tokens-explanation|LLM Tokens Explanation Summary]]: How AI tokenizes words into numbers like Lego bricks.
 - [[llm-wiki-concept-summary|LLM Wiki Concept Summary]]: Overview of the LLM Wiki pattern and architecture.
 - [[principle-of-prompting-for-agents|การเขียนพรอมต์สำหรับระบบเอเจนต์ (Principle of Prompting for Agents)]]: สรุปคำแนะนำและเทคนิคสำหรับระบบ AI Agent.
 - [[prompt-engineering-v7-summary|Prompt Engineering v7 Summary]]: Comprehensive guide to prompting techniques and LLM configuration.
 - [[workspace-prompting-101-summary|Workspace Prompting 101 Summary]]: Guide to using Gemini across Google Workspace apps.
 
 ## Entities
+- [[claude-code|Claude Code]]: Agentic coding environment created by Anthropic.
+- [[tiktoken|Tiktoken]]: OpenAI's open-source tokenizer tool.
 - [[vannevar-bush|Vannevar Bush]]: Visionary engineer who proposed the Memex.
 
 ## Concepts
@@ -45,9 +49,18 @@ Catalog of all knowledge pages in the wiki.
 - [[prompting-for-executives-management|Prompting for Executives & Management]]
 
 ### 🌐 General
+- [[character-level-tokenizer|Character-Level Tokenizer]]
+- [[context-window|Context Window (Claude Code)]]
+- [[mcp-servers|MCP Servers]]
 - [[memex|Memex]]
+- [[plan-mode|Plan Mode]]
+- [[subagents|Subagents]]
+- [[subword-level-tokenizer|Subword-Level Tokenizer]]
+- [[token|Token]]
+- [[vocabulary|Vocabulary (LLM)]]
 
 ## Sources
+- [[Best practices for Claude Code.md|Best practices for Claude Code Source]]: Original guide on using Claude Code effectively.
 - [[llm-wiki-concept|LLM Wiki Concept Source]]: Original source document.
 - [[Prompt Engineering_v7.pdf|Prompt Engineering v7 Source]]: Technical whitepaper on prompting by Lee Boonstra.
 - [[gemini_for_workspace_prompt_guide.pdf|Workspace Prompting Guide Source]]: Google's quick-start handbook for Workspace.
