@@ -6,6 +6,7 @@ Catalog of all knowledge pages in the wiki.
 - [[building-microservices-ch1-summary|สรุปบทที่ 1: What Are Microservices? (Building Microservices 2nd Ed)]]
 - [[claude-ai-usage|สรุปวิธีการใช้ Claude AI]]: คู่มือการใช้งานและเทคนิคการเขียน Prompt สำหรับ Claude AI.
 - [[llm-wiki-concept-summary|LLM Wiki Concept Summary]]: Overview of the LLM Wiki pattern and architecture.
+- [[principle-of-prompting-for-agents|การเขียนพรอมต์สำหรับระบบเอเจนต์ (Principle of Prompting for Agents)]]: สรุปคำแนะนำและเทคนิคสำหรับระบบ AI Agent.
 - [[prompt-engineering-v7-summary|Prompt Engineering v7 Summary]]: Comprehensive guide to prompting techniques and LLM configuration.
 - [[workspace-prompting-101-summary|Workspace Prompting 101 Summary]]: Guide to using Gemini across Google Workspace apps.
 
@@ -21,6 +22,8 @@ Catalog of all knowledge pages in the wiki.
 - [[monolith-types|Monolith Types (รูปแบบของ Monolith)]]
 
 ### 🧪 Prompt Engineering (Techniques)
+- [[agentic-evaluations|Agentic Evaluations (การประเมินผลเอเจนต์)]]
+- [[agentic-heuristics|Agentic Heuristics (หลักเกณฑ์สำหรับเอเจนต์)]]
 - [[chain-of-thought|Chain of Thought (CoT)]]
 - [[few-shot-prompting|Few-Shot Prompting]]
 - [[zero-shot-prompting|Zero-Shot Prompting]]

@@ -51,7 +51,6 @@ debugInConsole: false # Print debug info in Obsidian console
 ### 💻 ตัวอย่างโค้ดโครงสร้าง Tool Specification (JSON Schema)
 เอเจนต์จำเป็นต้องมีคำอธิบายเครื่องมือที่ "ชัดเจน" เหมือนมนุษย์อ่าน ในระบบ Agentic Context จะสร้างลักษณะนี้:
 
-```json
 {
   "name": "search_database",
   "description": "ค้นหาข้อมูลสต็อกสินค้าคงคลังปัจจุบันโดยใช้รหัสสินค้า (Product ID)",
