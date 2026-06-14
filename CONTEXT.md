@@ -1,0 +1,13 @@
+# Glossary
+
+- **Raw Source**: An immutable document (e.g., article, paper, note) provided by the user, strictly stored in the `raw/` directory. The LLM reads from these but never modifies them.
+- **Wiki**: A persistent, structured collection of markdown files generated and maintained entirely by the LLM. It uses a **Flat Directory Structure** (e.g., all files in a `wiki/` folder or root), relying on Obsidian Properties (YAML frontmatter) such as `type: concept` or `type: entity` for categorization rather than nested folders.
+- **Schema**: The rules and conventions that guide the LLM's behavior in maintaining the Wiki. (In this project, `CONTEXT.md` and related prompts serve as the Schema).
+- **Ingest**: The process where a user prompts the LLM to read a new Raw Source from `raw/`, discuss takeaways, and structurally update the Wiki to reflect the new knowledge. Ingestion state is tracked exclusively via the presence of the source in `index.md` and its corresponding Wiki page, not by moving the raw file.
+- **Index (`index.md`)**: A static, plain-text markdown file that catalogs everything in the Wiki. The Agent manually updates it on every ingest (instead of using dynamic plugins like Dataview) so that the Agent can read it quickly as a map of the knowledge base.
+- **Log (`log.md`)**: A chronological record of all actions (Ingest, Query, Lint) performed by the Agent. It uses a detailed Audit Trace format (often utilizing tables for readability) to list exactly which Wiki pages were created or modified during an action. 
+- **Log Rotation**: The process of archiving older log entries. When `log.md` exceeds 100 entries, the Agent will cut and paste the oldest logs into an archive file (e.g., `logs/archive-YYYY-MM.md`) to keep the main log readable while preserving history.
+- **Agent**: The conversational LLM assistant that acts as the "programmer" or "maintainer" of the Wiki, operating alongside the user's IDE (Obsidian).
+- **Page Template**: Every Wiki page must follow a strict structural template to ensure consistency. This includes YAML frontmatter (e.g., `type:`, `aliases:`), and standard headings such as `## Summary`, `## Related Concepts`, and `## Sources`. The Agent must adhere to this structure when creating or updating pages.
+- **Skill**: A specialized tool or capability (e.g., `defuddle` for web scraping, `obsidian-cli` for vault operations) that the Agent can invoke to perform specific tasks within the repository.
+- **Workflow**: A predefined sequence of steps or logic that the Agent follows to achieve a complex goal (e.g., the "Ingest Workflow" which orchestrates reading a source, invoking the `defuddle` skill, and formatting with the `obsidian-markdown` skill).
