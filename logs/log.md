@@ -11,3 +11,27 @@ Chronological audit trace of Agent operations.
 | Created | `logs/log.md` | Initialized log file |
 | Created | `index.md` | Initialized central index |
 | Created | `TEMPLATE.md` | Initialized Wiki page schema |
+
+## [2026-06-14] Ingest | Claude Prompt Caching
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `wiki/prompt_caching.md` | Ingested core concepts of caching |
+| Created | `wiki/token_optimization.md` | Ingested caching best practices & invalidation |
+| Updated | `index.md` | Added concepts and marked source as ingested |
+| Updated | `plans/ingest_claude_prompt_caching__plan.md` | Executed orchestration plan |
+
+## [2026-06-14] Ingest | Claude Subagents
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `wiki/Claude Subagent.md` | Ingested concept of subagents |
+| Created | `wiki/Built-In vs Custom Agents.md` | Ingested comparison of agent types |
+| Created | `wiki/Skills vs Subagents.md` | Ingested capability comparison |
+| Created | `wiki/Project vs Global Scope.md` | Ingested agent scope comparison |
+| Created | `wiki/Progressive Disclosure in Claude Code.md` | Ingested description formatting strategy |
+| Created | `wiki/Read-Only Subagents and Cost Efficiency.md` | Ingested read-only constraints |
+| Created | `wiki/Creating Custom Subagents.md` | Ingested creation process |
+| Created | `wiki/Subagents as Specialists.md` | Ingested specialization strategies |
+| Created | `wiki/When to Use a Subagent.md` | Ingested use case conditions |
+| Created | `wiki/Dynamic Workflows.md` | Ingested dynamic workflow concept |
+| Updated | `index.md` | Added concepts and marked source as ingested |
+| Updated | `plans/ingest_claude_subagents_plan.md` | Executed orchestration plan |

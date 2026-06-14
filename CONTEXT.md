@@ -11,3 +11,12 @@
 - **Page Template**: Every Wiki page must follow a strict structural template to ensure consistency. This includes YAML frontmatter (e.g., `type:`, `aliases:`), and standard headings such as `## Summary`, `## Related Concepts`, and `## Sources`. The Agent must adhere to this structure when creating or updating pages.
 - **Skill**: A specialized tool or capability (e.g., `defuddle` for web scraping, `obsidian-cli` for vault operations) that the Agent can invoke to perform specific tasks within the repository.
 - **Workflow**: A predefined sequence of steps or logic that the Agent follows to achieve a complex goal (e.g., the "Ingest Workflow" which orchestrates reading a source, invoking the `defuddle` skill, and formatting with the `obsidian-markdown` skill).
+- **Orchestration Plan**: A markdown file (stored in the `plans/` directory) used to break down and track the execution of a complex task (like Ingestion) into distinct, trackable phases and checkpoints.
+  - **Granular Task Breakdown**: The plan must break down the work for each Phase into the smallest, most detailed sub-tasks possible to enable task distribution and delegation to subagents.
+  - **Single-File Scope Constraint**: A single task must never cover multiple files simultaneously. Each task must be scoped to explicitly target only one specific file.
+- **Content Visualization**: When encountering complex or difficult concepts during page creation or Ingestion, the Agent should proactively use interactive elements, visualizations (e.g., Mermaid flowcharts, Comparison table), or tables to make the content easier for readers to understand. **Important:** Visualizations must supplement, not replace, comprehensive and detailed textual explanations. Do not reduce the depth or length of the text summary when adding visualizations.
+
+# Agent Behavior Rules
+
+- **Token Optimization & Output Muting**: Do not output all content into the chat to save tokens. Write it to a file (e.g., `plans/` or various `.md` files) instead and summarize briefly in the chat.
+- **Raw File Protection**: Do not delete the original files in the `raw/` folder under any circumstances.

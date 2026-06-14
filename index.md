@@ -7,6 +7,20 @@ This is the central catalog of the knowledge base. It is manually updated by the
 
 ## Concepts
 *List of ideas, theories, architectures, etc.*
+- [[prompt_caching|Prompt Caching]]
+- [[token_optimization|Token Optimization]]
+- [[Claude Subagent|Claude Subagent]]
+- [[Built-In vs Custom Agents|Built-In vs Custom Agents]]
+- [[Skills vs Subagents|Skills vs Subagents]]
+- [[Project vs Global Scope|Project vs Global Scope]]
+- [[Progressive Disclosure in Claude Code|Progressive Disclosure in Claude Code]]
+- [[Read-Only Subagents and Cost Efficiency|Read-Only Subagents and Cost Efficiency]]
+- [[Creating Custom Subagents|Creating Custom Subagents]]
+- [[Subagents as Specialists|Subagents as Specialists]]
+- [[When to Use a Subagent|When to Use a Subagent]]
+- [[Dynamic Workflows|Dynamic Workflows]]
 
 ## Sources
 *List of ingested raw sources with links to their Wiki source pages.*
+- [[Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]
+- [[How to Build Claude Subagents Better Than 99% of People]]
