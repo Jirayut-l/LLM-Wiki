@@ -20,3 +20,4 @@
 
 - **Token Optimization & Output Muting**: Do not output all content into the chat to save tokens. Write it to a file (e.g., `plans/` or various `.md` files) instead and summarize briefly in the chat.
 - **Raw File Protection**: Do not delete the original files in the `raw/` folder under any circumstances.
+- **Thai Language Summary**: The summary should be in Thai only. If there are technical terms, please use their transliteration.

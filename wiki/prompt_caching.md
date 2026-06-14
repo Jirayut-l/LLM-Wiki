@@ -33,8 +33,8 @@ Cache จะไม่คงอยู่ถาวร แต่จะมีหน�
 *หมายเหตุ: หากคุณทิ้งหน้าต่างแชทไว้นานเกินระยะเวลา TTL นี้ (เช่นไปกินข้าว 2 ชั่วโมง) Cache ใน Session นั้นจะถูกลบ (Un-cached) ทั้งหมด หากคุณทักกลับไปใหม่ ระบบจะต้องทำ Cache Create ข้อมูลทุกอย่างตั้งแต่บรรทัดแรกใหม่ ซึ่งสิ้นเปลืองเป็นอย่างมาก*
 
 ## Related
-- [[Token Optimization]]
-- [[Cache Invalidation]]
+- [[token_optimization|Token Optimization]]
+- [[token_optimization#สิ่งที่ทำให้ Cache แตก (Cache Invalidation)|Cache Invalidation]]
 
 ## Sources
 - [[Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]
