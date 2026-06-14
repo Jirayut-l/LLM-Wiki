@@ -21,7 +21,7 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
    - Create a new markdown file in the `plans/` directory named `ingest_[topic_name]__plan.md`.
    - Follow the structure defined in `docs/template_orchestration_plan.md`.
    - Break down the ingestion into logical **Phases** (e.g., Phase 1: Core Concepts, Phase 2: Techniques).
-   - The final Phase must always be **Index & Audit Log Update**.
+   - The final Phase must always be **Index, Audit Log, & Hot Cache Update**.
    - Include a **Checkpoint** at the end of every Phase. The Agent MUST stop and wait for the user to type "อนุมัติ" (Approve) before proceeding to the next Phase.
    - Present the summary of the created plan to the user and wait for their approval to start Phase 1.
 
@@ -31,7 +31,8 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
    - Check off (`[x]`) the tasks in the Orchestration Plan file as they are completed.
    - Stop execution at the end of the Phase and ask the user for "อนุมัติ" (Checkpoint). Do not proceed to the next Phase until explicit approval is given.
 
-4. **Final Updates (Index & Logs)**
+4. **Final Updates (Index, Logs, & Hot Cache)**
    - In the final Phase, update `index.md` by listing the new concepts/entities and linking the ingested raw source.
-   - Append a chronological audit trace of all created/updated files to `logs/log.md`.
+   - Append a chronological audit trace of all created/updated files to `log.md`.
+   - Update `hot.md` to briefly summarize the recent ingestion and any new open decisions or ongoing focuses.
    - Check off the final tasks in the plan and notify the user that the ingestion process is 100% complete.
