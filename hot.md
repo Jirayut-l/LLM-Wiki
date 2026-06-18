@@ -3,12 +3,13 @@
 **Last Updated:** 2026-06-14
 
 ## Current Focus
-*   Establishing the Hot Cache (`hot.md`) system to act as a short-term memory and context buffer for the AI Agent.
-*   Defining standard workflows to ensure this cache is updated at the end of every significant action or workflow.
+*   Executing the Orchestration Plan: "Ingest From Zero to Head of AI in 1 Year".
+*   Currently at the end of Phase 1: Core Entities & Tools.
 
 ## Decisions in Flight
-*   None currently. The structure and role of the Hot Cache have been agreed upon and documented in `CONTEXT.md`.
+*   Waiting for User's approval ("อนุมัติ") for Phase 1 before moving to Phase 2 (Techniques, Strategies & Main Note).
 
 ## Recent Changes
-*   Added **Hot Cache (`hot.md`)** definition to the Glossary in `CONTEXT.md`.
-*   Created the initial `hot.md` file at the repository root.
+*   Created [[n8n.md]] explaining n8n in the context of AI Automation.
+*   Created [[Claude_Code.md]] explaining Claude Code in the context of AI Development.
+*   Updated `plans/ingest_from_zero_to_head_of_ai__plan.md` to mark Phase 1 as completed.

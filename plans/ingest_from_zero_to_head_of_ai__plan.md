@@ -8,8 +8,8 @@ Ingest the raw source "From Zero to Head of AI in 1 Year (as a regular person)" 
 ### Phase 1: Core Entities & Tools
 - [x] สร้างไฟล์ Wiki สำหรับบุคคล `Ailin.md` (อธิบายประวัติจาก Email Developer สู่ Head of AI)
 - [x] สร้างไฟล์ Wiki สำหรับบทบาท `Head_of_AI_Role.md` (อธิบายลักษณะงาน, การวางกลยุทธ์, และทักษะที่จำเป็น)
-- [ ] สร้างไฟล์ Wiki สำหรับเครื่องมือ `n8n.md` (อธิบายในบริบทของ AI Automation สำหรับผู้เริ่มต้น)
-- [ ] สร้างไฟล์ Wiki สำหรับเครื่องมือ `Claude_Code.md` (อธิบายในบริบทของการพัฒนา AI)
+- [x] สร้างไฟล์ Wiki สำหรับเครื่องมือ `n8n.md` (อธิบายในบริบทของ AI Automation สำหรับผู้เริ่มต้น)
+- [x] สร้างไฟล์ Wiki สำหรับเครื่องมือ `Claude_Code.md` (อธิบายในบริบทของการพัฒนา AI)
 - **Checkpoint:** หยุดรอให้ User ตรวจสอบและพิมพ์ "อนุมัติ" ก่อนเริ่ม Phase 2
 
 ### Phase 2: Techniques, Strategies & Main Note
