@@ -13,11 +13,11 @@ Perform a health check on the wiki to maintain structural integrity. This is a *
 
 ## 1. Core Lint Checks
 
-You must systematically scan the `wiki/` directory (using tools like `grep_search` and `list_dir`) and check for the following issues:
+You must systematically scan the `wiki/` directory (excluding `wiki/meta/`), `index.md`, and `hot.md` (using tools like `grep_search` and `list_dir`) and check for the following issues:
 
 1. **Dead Links**: Wikilinks (e.g., `[[Page Name]]`) that reference a page that does not exist anywhere in the vault.
-2. **Orphan Pages**: Wiki pages that have NO inbound wikilinks from any other page in the vault (excluding `index.md`).
-3. **Frontmatter Gaps**: Pages missing required YAML frontmatter fields (e.g., `type`, `tags`).
+2. **Orphan Pages**: Wiki pages that have NO inbound wikilinks from any other page in the vault. Do NOT count links from `index.md` or `hot.md` as valid inbound links. `index.md` and `hot.md` themselves are exempt from being flagged as orphans.
+3. **Frontmatter Gaps**: Pages missing required YAML frontmatter fields (e.g., `type`, `tags`). `index.md` and `hot.md` are exempt from this check.
 4. **Empty Sections**: Markdown headings (`## Heading`) that have no content or text beneath them.
 5. **Stale Index Entries**: Items listed in `wiki/index.md` that point to deleted or renamed pages.
 
@@ -77,5 +77,5 @@ Once the report is generated:
 ## 4. Constraints & Rules
 
 - **Read-Only**: ห้ามแก้ไข (Auto-fix) ข้อบกพร่องใดๆ ที่เจอระหว่างรันเด็ดขาด เพื่อความปลอดภัยของข้อมูล
-- **Scope**: สแกนเฉพาะไฟล์ในโฟลเดอร์ `wiki/` เท่านั้น ห้ามสแกนหรือยุ่งเกี่ยวกับโฟลเดอร์ `.raw/`
+- **Scope**: สแกนเฉพาะไฟล์ในโฟลเดอร์ `wiki/` (ยกเว้นโฟลเดอร์ `wiki/meta/`), ไฟล์ `index.md` และ `hot.md` เท่านั้น ห้ามสแกนหรือยุ่งเกี่ยวกับโฟลเดอร์ `.raw/`
 - **Thai Language**: พิมพ์สรุปโต้ตอบกับผู้ใช้เป็นภาษาไทย

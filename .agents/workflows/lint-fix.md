@@ -26,11 +26,11 @@ Execute the tasks phase-by-phase according to the following execution rules for 
 
 ### 4. Orphan Pages
 - **Goal**: Integrate floating pages into the Knowledge Graph.
-- **Rule**: Perform "Auto-linking". The Agent reads the Orphan Page, searches the Wiki for related concept pages, and injects a link to the Orphan Page in the most relevant existing page (e.g., in a "Related Concepts" section).
+- **Rule**: Perform "Auto-linking". The Agent reads the Orphan Page, searches the Wiki for related concept pages, and injects a link to the Orphan Page in the most relevant existing page (e.g., in a "Related Concepts" section). Note: do not link from `index.md` or `hot.md` to resolve an Orphan Page.
 
 ### 5. Frontmatter Gaps
 - **Goal**: Ensure metadata completeness.
-- **Rule**: Perform "Auto-infer". The Agent reads the content of the page and automatically infers and fills in the missing frontmatter fields (e.g., generating a Title, extracting Keywords for Tags, or setting the current Date).
+- **Rule**: Perform "Auto-infer". The Agent reads the content of the page and automatically infers and fills in the missing frontmatter fields (e.g., generating a Title, extracting Keywords for Tags, or setting the current Date). Do not attempt to add frontmatter to `index.md` or `hot.md`.
 
 ## Phase 3: Finalization
 1. Update `hot.md` to reflect the completed lint fixes.
