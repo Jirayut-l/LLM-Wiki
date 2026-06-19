@@ -35,3 +35,10 @@ Chronological audit trace of Agent operations.
 | Created | `wiki/Dynamic Workflows.md` | Ingested dynamic workflow concept |
 | Updated | `index.md` | Added concepts and marked source as ingested |
 | Updated | `plans/ingest_claude_subagents_plan.md` | Executed orchestration plan |
+
+## [2026-06-19] Wiki Reorganization | Root Files
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Moved | `wiki/entities/*.md` | Moved 2 entity files from root and updated their types |
+| Moved | `wiki/concepts/*.md` | Moved 11 concept files from root to concepts/ folder |
+| Updated | `index.md` | Reclassified Claude Subagent and added Head of AI Role to Entities |

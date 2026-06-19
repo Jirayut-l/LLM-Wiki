@@ -5,12 +5,13 @@ This is the central catalog of the knowledge base. It is manually updated by the
 ## Entities
 *List of people, organizations, tools, etc.*
 - [[Claude_Code|Claude Code]]
+- [[Claude Subagent|Claude Subagent]]
+- [[Head_of_AI_Role|Head of AI Role]]
 
 ## Concepts
 *List of ideas, theories, architectures, etc.*
 - [[prompt_caching|Prompt Caching]]
 - [[token_optimization|Token Optimization]]
-- [[Claude Subagent|Claude Subagent]]
 - [[Built-In vs Custom Agents|Built-In vs Custom Agents]]
 - [[Skills vs Subagents|Skills vs Subagents]]
 - [[Project vs Global Scope|Project vs Global Scope]]

@@ -1,5 +1,5 @@
 ---
-type: concept
+type: entity
 aliases: [Head of AI, Chief AI Officer]
 tags: [career, ai-strategy, leadership]
 created: 2026-06-14

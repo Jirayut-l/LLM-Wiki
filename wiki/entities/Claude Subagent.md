@@ -1,5 +1,5 @@
 ---
-type: concept
+type: entity
 aliases: [Subagent, Claude Subagent]
 tags: [claude, subagents, ai]
 created: 2026-06-14
