@@ -13,14 +13,14 @@ Ingest the raw source "From Zero to Head of AI in 1 Year (as a regular person)" 
 - **Checkpoint:** หยุดรอให้ User ตรวจสอบและพิมพ์ "อนุมัติ" ก่อนเริ่ม Phase 2
 
 ### Phase 2: Techniques, Strategies & Main Note
-- [ ] สร้างไฟล์ Wiki สำหรับเทคนิค `Building_in_Public.md` (การแสดงผลงาน, ทำวิดีโอเพื่อใช้สมัครงานแทน Resume)
-- [ ] สร้างไฟล์ Wiki สำหรับกลยุทธ์ `AI_Adoption_Strategy.md` (การจัดการการเปลี่ยนแปลง, การทำให้พนักงานยอมรับ AI)
-- [ ] สร้างไฟล์ Wiki สำหรับโน้ตหลักของวิดีโอ `From_Zero_to_Head_of_AI_in_1_Year.md` (สรุปเนื้อหาหลักและเชื่อมโยงไปยัง Entity ทั้งหมด)
+- [x] สร้างไฟล์ Wiki สำหรับเทคนิค `Building_in_Public.md` (การแสดงผลงาน, ทำวิดีโอเพื่อใช้สมัครงานแทน Resume)
+- [x] สร้างไฟล์ Wiki สำหรับกลยุทธ์ `AI_Adoption_Strategy.md` (การจัดการการเปลี่ยนแปลง, การทำให้พนักงานยอมรับ AI)
+- [x] สร้างไฟล์ Wiki สำหรับโน้ตหลักของวิดีโอ `From_Zero_to_Head_of_AI_in_1_Year.md` (สรุปเนื้อหาหลักและเชื่อมโยงไปยังทั้งหมด wiki/summarize)
 - **Checkpoint:** หยุดรอให้ User ตรวจสอบและพิมพ์ "อนุมัติ" ก่อนเริ่ม Phase 3
 
 ### Phase 3: Index & Audit Log Update
-- [ ] อัปเดตไฟล์ `index.md` โดยเพิ่มลิงก์ไปยังไฟล์ที่สร้างใหม่ทั้งหมด
-- [ ] อัปเดตไฟล์ `logs/log.md` โดยบันทึกประวัติการ Ingest ตามรูปแบบ Audit Trace
+- [x] อัปเดตไฟล์ `index.md` โดยเพิ่มลิงก์ไปยังไฟล์ที่สร้างใหม่ทั้งหมด
+- [x] อัปเดตไฟล์ `logs/log.md` โดยบันทึกประวัติการ Ingest ตามรูปแบบ Audit Trace
 - **Checkpoint:** หยุดรอให้ User ตรวจสอบและพิมพ์ "อนุมัติ" เพื่อเสร็จสิ้นกระบวนการ
 
 ## 🚦 State Management

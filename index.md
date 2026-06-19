@@ -4,9 +4,11 @@ This is the central catalog of the knowledge base. It is manually updated by the
 
 ## Entities
 *List of people, organizations, tools, etc.*
+- [[Ailin|Ailin]]
 - [[Claude_Code|Claude Code]]
 - [[Claude Subagent|Claude Subagent]]
 - [[Head_of_AI_Role|Head of AI Role]]
+- [[n8n|n8n]]
 
 ## Concepts
 *List of ideas, theories, architectures, etc.*
@@ -21,8 +23,11 @@ This is the central catalog of the knowledge base. It is manually updated by the
 - [[Subagents as Specialists|Subagents as Specialists]]
 - [[When to Use a Subagent|When to Use a Subagent]]
 - [[Dynamic Workflows|Dynamic Workflows]]
+- [[Building_in_Public|Building in Public]]
+- [[AI_Adoption_Strategy|AI Adoption Strategy]]
 
 ## Sources
 *List of ingested raw sources with links to their Wiki source pages.*
 - [[Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]
 - [[How to Build Claude Subagents Better Than 99% of People]]
+- [[From_Zero_to_Head_of_AI_in_1_Year|From Zero to Head of AI in 1 Year]]

@@ -42,3 +42,16 @@ Chronological audit trace of Agent operations.
 | Moved | `wiki/entities/*.md` | Moved 2 entity files from root and updated their types |
 | Moved | `wiki/concepts/*.md` | Moved 11 concept files from root to concepts/ folder |
 | Updated | `index.md` | Reclassified Claude Subagent and added Head of AI Role to Entities |
+
+## [2026-06-19] Ingest | From Zero to Head of AI in 1 Year
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `wiki/entities/Ailin.md` | Ingested Ailin's entity |
+| Created | `wiki/entities/Head_of_AI_Role.md` | Ingested Head of AI Role entity |
+| Created | `wiki/entities/n8n.md` | Ingested n8n entity |
+| Created | `wiki/entities/Claude_Code.md` | Ingested Claude Code entity |
+| Created | `wiki/concepts/Building_in_Public.md` | Ingested Building in Public concept |
+| Created | `wiki/concepts/AI_Adoption_Strategy.md` | Ingested AI Adoption Strategy concept |
+| Created | `wiki/summarize/From_Zero_to_Head_of_AI_in_1_Year.md` | Ingested main note for the video |
+| Updated | `index.md` | Added entities, concepts, and source |
+| Updated | `plans/ingest_from_zero_to_head_of_ai__plan.md` | Executed orchestration plan |
