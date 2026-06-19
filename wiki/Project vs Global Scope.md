@@ -7,7 +7,7 @@ created: 2026-06-14
 # Project vs Global Scope
 
 ## Summary
-Subagents และ Skills ใน Claude Code สามารถกำหนดขอบเขต (Scope) ในการใช้งานได้ 2 ระดับ คือระดับโปรเจค (Project Level) และระดับระบบ (Global Level) ซึ่งเป็นตัวกำหนดว่าจะสามารถเรียกใช้งาน agent/skill นั้นจากที่ไหนได้บ้าง 
+[[Claude Subagent|Subagents]] และ [[Skills vs Subagents|Skills]] ใน Claude Code สามารถกำหนดขอบเขต (Scope) ในการใช้งานได้ 2 ระดับ คือระดับโปรเจค (Project Level) และระดับระบบ (Global Level) ซึ่งเป็นตัวกำหนดว่าจะสามารถเรียกใช้งาน agent/skill นั้นจากที่ไหนได้บ้าง 
 
 ## Core Content
 - **Project Level (ระดับโปรเจค):**

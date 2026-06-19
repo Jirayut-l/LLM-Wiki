@@ -7,7 +7,7 @@ created: 2026-06-14
 # Read-Only Subagents and Cost Efficiency
 
 ## Summary
-การใช้งาน Subagents ไม่ได้มีดีแค่ความสามารถในการทำคู่ขนาน แต่ยังเป็นกุญแจสำคัญในการลดต้นทุน (Cost Efficiency) และการรักษาความปลอดภัยของข้อมูลด้วยการกำหนดสิทธิ์แบบอ่านอย่างเดียว (Read-Only)
+การใช้งาน [[Claude Subagent|Subagents]] ไม่ได้มีดีแค่ความสามารถในการทำคู่ขนาน แต่ยังเป็นกุญแจสำคัญในการลดต้นทุน (Cost Efficiency) และการรักษาความปลอดภัยของข้อมูลด้วยการกำหนดสิทธิ์แบบอ่านอย่างเดียว (Read-Only)
 
 ## Core Content
 - **Cost Efficiency (การประหยัดต้นทุน):**
@@ -40,6 +40,7 @@ disallowedTools:
 ## Related
 - [[Claude Subagent]]
 - [[Creating Custom Subagents]]
+- [[Subagents as Specialists]]
 
 ## Sources
 - [[How to Build Claude Subagents Better Than 99% of People]]

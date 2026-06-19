@@ -7,7 +7,7 @@ created: 2026-06-14
 # Built-In vs Custom Agents
 
 ## Summary
-ในการใช้งาน Claude Code มี Subagent ให้เลือกใช้ 2 รูปแบบหลัก คือ Built-In Agents ที่มีมาให้ในระบบโดยปริยาย และ Custom Agents ที่ผู้ใช้งานสร้างขึ้นมาเองผ่านไฟล์ Markdown เพื่อทำงานเฉพาะทางตามความต้องการของตนเอง
+ในการใช้งาน Claude Code มี [[Claude Subagent|Subagent]] ให้เลือกใช้ 2 รูปแบบหลัก คือ Built-In Agents ที่มีมาให้ในระบบโดยปริยาย และ Custom Agents ที่ผู้ใช้งานสร้างขึ้นมาเองผ่านไฟล์ Markdown เพื่อทำงานเฉพาะทางตามความต้องการของตนเอง
 
 ## Core Content
 - **Built-In Agents:** 
@@ -18,11 +18,12 @@ created: 2026-06-14
 - **Custom Agents:**
   - สร้างขึ้นโดยผู้ใช้งานเองผ่านไฟล์ Markdown (`.md`) โดยปกติจะบันทึกอยู่ในโฟลเดอร์ `.claude/agents` ภายในโปรเจค
   - ภายในไฟล์ `.md` จะมี YAML front matter ซึ่งเป็นข้อมูลที่อธิบายตัว agent เช่น ชื่อ (name), คำอธิบาย (description), โมเดลที่ใช้ (model), สีที่แสดง (color), และสิทธิ์ในการใช้เครื่องมือ (tools)
-  - ทั้ง Built-In และ Custom Agents ต่างอาศัยกลไกที่เรียกว่า "Progressive Disclosure" ในการทำงาน ซึ่งหมายความว่า Claude Code จะอ่านแค่ส่วนหน้า (YAML front matter) ก่อน เพื่อพิจารณาว่า agent ตัวนี้เหมาะสมกับคำสั่งของผู้ใช้หรือไม่ โดยไม่ต้องอ่านเนื้อหาทั้งหมดหากยังไม่ถูกเรียกใช้จริงเพื่อประหยัดจำนวน Token
+  - ทั้ง Built-In และ Custom Agents ต่างอาศัยกลไกที่เรียกว่า "[[Progressive Disclosure in Claude Code|Progressive Disclosure]]" ในการทำงาน ซึ่งหมายความว่า Claude Code จะอ่านแค่ส่วนหน้า (YAML front matter) ก่อน เพื่อพิจารณาว่า agent ตัวนี้เหมาะสมกับคำสั่งของผู้ใช้หรือไม่ โดยไม่ต้องอ่านเนื้อหาทั้งหมดหากยังไม่ถูกเรียกใช้จริงเพื่อประหยัดจำนวน Token
 
 ## Related
 - [[Claude Subagent]]
 - [[Project vs Global Scope]]
+- [[Creating Custom Subagents]]
 
 ## Sources
 - [[How to Build Claude Subagents Better Than 99% of People]]

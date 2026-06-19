@@ -12,7 +12,7 @@ created: 2026-06-14
 ## Core Content
 - **การสร้างด้วย AI (Generate with Claude):**
   - สามารถพิมพ์คำสั่ง `/agents` (หรือเรียกผ่าน UI/Command palette)
-  - เลือกระดับ Scope ของ Agent (Project หรือ Global)
+  - เลือกระดับ Scope ของ Agent ([[Project vs Global Scope|Project หรือ Global]])
   - เลือก **Generate with Claude** จากนั้นให้อธิบาย (Prompt) สิ่งที่คุณต้องการให้ Subagent นี้ทำ ตัวอย่างเช่น "สร้าง Subagent ที่คอยวิจารณ์งานของฉันแบบตรงไปตรงมา" (Plan Roaster)
   - ระบุ Tool ที่อนุญาต (เช่น Read-only), เลือกรุ่นของโมเดล (Model), สีที่ใช้แสดง, และระดับความจำ (Memory เช่น Project Scope หรือ None)
 
@@ -25,6 +25,7 @@ created: 2026-06-14
 - [[Built-In vs Custom Agents]]
 - [[Project vs Global Scope]]
 - [[Progressive Disclosure in Claude Code]]
+- [[Claude Subagent]]
 
 ## Sources
 - [[How to Build Claude Subagents Better Than 99% of People]]

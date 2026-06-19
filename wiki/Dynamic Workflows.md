@@ -7,7 +7,7 @@ created: 2026-06-14
 # Dynamic Workflows
 
 ## Summary
-Dynamic Workflows เป็นฟีเจอร์ระดับสูงใน Claude Code ที่ยอมให้ Main Session สามารถเรียกสร้างและส่งต่องานไปยัง Subagents จำนวนหลายสิบตัวได้ในคราวเดียวกัน (Parallel Execution) โดยอัตโนมัติ 
+Dynamic Workflows เป็นฟีเจอร์ระดับสูงใน Claude Code ที่ยอมให้ Main Session สามารถเรียกสร้างและส่งต่องานไปยัง [[Claude Subagent|Subagents]] จำนวนหลายสิบตัวได้ในคราวเดียวกัน (Parallel Execution) โดยอัตโนมัติ 
 
 ## Core Content
 - **วิธีการทำงาน:**

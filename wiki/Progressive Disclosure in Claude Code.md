@@ -11,7 +11,7 @@ Progressive Disclosure คือกลไกอัจฉริยะใน Claud
 
 ## Core Content
 - **การทำงานของ Progressive Disclosure:**
-  - เมื่อผู้ใช้พิมพ์คำสั่ง Claude Code จะสแกนค้นหา Subagents/Skills โดยอ่านเฉพาะ `name` และ `description` ในส่วน YAML front matter เท่านั้น
+  - เมื่อผู้ใช้พิมพ์คำสั่ง Claude Code จะสแกนค้นหา [[Claude Subagent|Subagents]]/[[Skills vs Subagents|Skills]] โดยอ่านเฉพาะ `name` และ `description` ในส่วน YAML front matter เท่านั้น
   - ถ้าระบบพิจารณาแล้วว่างานที่ได้รับมอบหมายตรงกับคำอธิบาย (description) มันถึงจะโหลดเนื้อหาทั้งหมด (body) เข้ามาทำงาน ช่วยให้ไม่เปลือง Token ไปกับการอ่านคำสั่งเต็มของ agent ทุกตัวที่มีในระบบ
 
 - **ความสำคัญของ Descriptions (คำอธิบาย):**
