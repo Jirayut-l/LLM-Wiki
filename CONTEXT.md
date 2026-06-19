@@ -20,6 +20,7 @@
   - **Staging Phase**: A conceptual phase in an Orchestration Plan where the Agent has drafted changes or new pages, but has not yet officially written them to the persistent `wiki/` directory.
   - **Commit Phase**: The final step of an Orchestration Plan task where the Agent officially writes the verified drafts to their permanent locations in the repository (e.g., `wiki/`) and updates tracking files.
 - **Content Visualization**: When encountering complex or difficult concepts during page creation or Ingestion, the Agent should proactively use interactive elements, visualizations (e.g., Mermaid flowcharts, Comparison table), or tables to make the content easier for readers to understand. **Important:** Visualizations must supplement, not replace, comprehensive and detailed textual explanations. Do not reduce the depth or length of the text summary when adding visualizations.
+- **Stub Page**: A temporary Wiki page containing only the standard Page Template and frontmatter, created to resolve Dead Links until proper Ingestion or content generation occurs.
 
 # Agent Behavior Rules
 
