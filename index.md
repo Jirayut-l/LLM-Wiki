@@ -4,6 +4,7 @@ This is the central catalog of the knowledge base. It is manually updated by the
 
 ## Entities
 *List of people, organizations, tools, etc.*
+- [[Claude_Code|Claude Code]]
 
 ## Concepts
 *List of ideas, theories, architectures, etc.*
