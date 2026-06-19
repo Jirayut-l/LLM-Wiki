@@ -3,20 +3,24 @@
 **Last Updated:** 2026-06-19
 
 ## Current Focus
-*   Completed the Orchestration Plan: "Ingest From Zero to Head of AI in 1 Year".
+*   Completed the Orchestration Plan: "Ingest Claude Code Routines".
 *   Ready for next user instructions.
 
 ## Active Files
 *   `index.md`
 *   `logs/log.md`
 *   `hot.md`
+*   `wiki/concepts/claude-code-routines.md`
+*   `wiki/concepts/proactive-agent.md`
 
 ## Decisions in Flight
-*   None
+*   What specific custom events are supported via webhooks for triggering routines?
+*   How is the state persistence of routines managed specifically across different connectors?
+*   What are the precise limits on compute/token usage for long-running routines?
+*   How can we practically implement the generator-critiquer (agent-on-agent review) pattern mentioned in the source for our own workflows?
 
 ## Recent Changes
-*   Completed Phase 2 and 3 of the "From Zero to Head of AI" ingestion.
-*   Created `Building_in_Public.md`, `AI_Adoption_Strategy.md`, and `From_Zero_to_Head_of_AI_in_1_Year.md`.
-*   Updated `index.md` and `log.md` with new entities, concepts, and source.
-*   Moved 13 misplaced wiki files from the root `wiki/` directory to `wiki/entities/` and `wiki/concepts/`.
-*   Updated `index.md` to reclassify "Claude Subagent" and add "Head of AI Role" to Entities.
+*   Completed Phase 1 and 2 of the "Claude Code Routines" ingestion.
+*   Created `wiki/concepts/claude-code-routines.md` and `wiki/concepts/proactive-agent.md`.
+*   Translated content into Thai while maintaining technical terms.
+*   Updated `index.md` and `log.md`.

@@ -53,5 +53,12 @@ Chronological audit trace of Agent operations.
 | Created | `wiki/concepts/Building_in_Public.md` | Ingested Building in Public concept |
 | Created | `wiki/concepts/AI_Adoption_Strategy.md` | Ingested AI Adoption Strategy concept |
 | Created | `wiki/summarize/From_Zero_to_Head_of_AI_in_1_Year.md` | Ingested main note for the video |
-| Updated | `index.md` | Added entities, concepts, and source |
 | Updated | `plans/ingest_from_zero_to_head_of_ai__plan.md` | Executed orchestration plan |
+
+## [2026-06-19] Ingest | Claude Code Routines
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `wiki/concepts/claude-code-routines.md` | Ingested Claude Code Routines concept |
+| Created | `wiki/concepts/proactive-agent.md` | Ingested Proactive Agents concept |
+| Updated | `index.md` | Added concepts and marked source as ingested |
+| Updated | `plans/ingest_claude_code_routines__plan.md` | Executed orchestration plan |

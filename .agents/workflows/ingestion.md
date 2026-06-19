@@ -45,7 +45,7 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
    - Check off (`[x]`) the tasks in the Orchestration Plan file as they are completed.
    - Stop execution at the end of the Phase and ask the user for "อนุมัติ" (Checkpoint). Do not proceed to the next Phase until explicit approval is given.
 
-4. **Verification & Linting**
+4. **Verification**
    - **Peer Review**: Invoke the `verifier` subagent (defined in `.agents/agents/verifier.md`) to review the drafted pages for accuracy and formatting against the source.
 
 5. **Updates (Index, Logs, & Hot Cache)**
