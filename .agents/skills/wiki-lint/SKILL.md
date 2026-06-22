@@ -17,7 +17,7 @@ You must systematically scan the `wiki/` directory (excluding `wiki/meta/`), `in
 
 1. **Dead Links**: Wikilinks (e.g., `[[Page Name]]`) that reference a page that does not exist anywhere in the vault.
 2. **Orphan Pages**: Wiki pages that have NO inbound wikilinks from any other page in the vault. Do NOT count links from `index.md` or `hot.md` as valid inbound links. `index.md` and `hot.md` themselves are exempt from being flagged as orphans.
-3. **Frontmatter Gaps**: Pages missing required YAML frontmatter fields (e.g., `type`, `tags`). `index.md` and `hot.md` are exempt from this check.
+3. **Frontmatter Gaps**: Pages missing required YAML frontmatter fields based on their `type`. You must first read the page's `type`, then check the corresponding `_templates/[type].md` file to see what frontmatter keys are required. Ensure all keys from the template exist in the target page. `index.md` and `hot.md` are exempt from this check.
 4. **Empty Sections**: Markdown headings (`## Heading`) that have no content or text beneath them.
 5. **Stale Index Entries**: Items listed in `wiki/index.md` that point to deleted or renamed pages.
 
