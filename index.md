@@ -27,6 +27,9 @@ This is the central catalog of the knowledge base. It is manually updated by the
 - [[AI_Adoption_Strategy|AI Adoption Strategy]]
 - [[claude-code-routines|Claude Code Routines]]
 - [[proactive-agent|Proactive Agents]]
+- [[Claude Subagent]]
+- [[Dynamic Workflow]]
+- [[Progressive Disclosure]]
 
 ## Sources
 *List of ingested raw sources with links to their Wiki source pages.*
@@ -34,3 +37,7 @@ This is the central catalog of the knowledge base. It is manually updated by the
 - [[How to Build Claude Subagents Better Than 99% of People]]
 - [[From_Zero_to_Head_of_AI_in_1_Year|From Zero to Head of AI in 1 Year]]
 - [[Build a proactive agent workflow with Claude Code]]
+
+## Summaries
+*List of synthesis and summary pages.*
+- [[claude_subagents_summary|Claude Subagents Summary]]
