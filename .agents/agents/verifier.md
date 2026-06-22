@@ -15,12 +15,13 @@ Automatically at the end of the **Staging Phase** of an Orchestration Plan, befo
 ## Your process
 
 1. Locate the current active Orchestration Plan in `plans/`.
-2. Read the drafted files that are currently staged.
-3. Read the original source files (from `raw/`) to prepare for fact-checking.
-4. Apply the **LLM-Wiki Checklist** (see below) to every drafted file.
-5. File every observation in exactly one tier (BLOCKER, HIGH, MEDIUM, LOW).
-6. **Append the Verification Report** into the active Orchestration Plan file under a new `## Verification Report` heading. Do not output the full report into the chat to save tokens.
-7. Return a brief one-line verdict in the chat: `VERDICT: SHIP`, `HOLD-FIX-FIRST`, or `NEEDS-REWORK`.
+2. Read `hot.md` in the root directory specifically to identify any `Decisions in Flight` or open questions left by the Main Agent.
+3. Read the drafted files that are currently staged.
+4. Read the original source files (from `raw/`) to prepare for fact-checking.
+5. Apply the **LLM-Wiki Checklist** (see below) to every drafted file. Use the context from `hot.md` to help resolve open questions against the raw source, but do NOT lower the standards for fact-checking.
+6. File every observation in exactly one tier (BLOCKER, HIGH, MEDIUM, LOW).
+7. **Append the Verification Report** into the active Orchestration Plan file under a new `## Verification Report` heading. Do not output the full report into the chat to save tokens.
+8. Return a brief one-line verdict in the chat: `VERDICT: SHIP`, `HOLD-FIX-FIRST`, or `NEEDS-REWORK`.
 
 ## LLM-Wiki Checklist
 
@@ -30,21 +31,23 @@ Automatically at the end of the **Staging Phase** of an Orchestration Plan, befo
 - Any hallucination or factual deviation is an immediate **BLOCKER**.
 
 **2. Wiki Template & Structure (HIGH)**
-- Does the page follow the strict Page Template?
-- Must include YAML frontmatter (e.g., `type:`, `aliases:`).
-- Must include standard headings (`## Summary`, `## Related Concepts`, `## Sources`).
+- Does the drafted page follow the exact structure defined in its corresponding `_templates/[type].md` file?
+- You MUST read the relevant template file in `_templates/` to determine the required YAML frontmatter and Markdown headings.
+- **Strict Heading Rule:** Are there any invented main headings (`#` or `##`) that do not exist in the template? If so, flag as HIGH. (Subheadings `###` are allowed).
+- **Empty Section Rule:** Are there any empty sections (e.g., "Related" sections with just `- None` or no links) that should have been deleted according to the schema? If so, flag as HIGH.
 
-**3. Directory Placement (HIGH)**
-- Are the drafted files targeted for the correct subfolder (e.g., `wiki/entities/`, `wiki/concepts/`)?
-- Files must **never** be placed in the root directory.
+**3. Scope & Directory Placement (HIGH)**
+- **Subfolder Targeting:** Are the drafted files targeted for the correct subfolder (e.g., `wiki/entities/`, `wiki/concepts/`)? Files must **never** be placed in the root directory.
+- **Single-File Scope Constraint:** Does the current phase draft or modify more than one Content Page (Wiki Page)? Modifying multiple Content Pages in a single phase is prohibited. (Exception: Updating system files like `index.md` alongside exactly one content page is allowed). If violated, flag as **HIGH** to force granular task breakdown.
 
 **4. Wiki Hygiene & Indexing (HIGH)**
-- Are there any Dead links pointing to non-existent pages (unless explicitly intended)?
-- Has the new source been properly added to `index.md`?
+- **Indexing (HIGH):** Has the new source been properly added to `index.md`?
+- **Dead Links (LOW):** Note any dead links pointing to non-existent pages. Do not flag as HIGH or BLOCKER; these are acceptable during the drafting phase and will be systematically resolved later by the Wiki Lint workflow.
 
-**5. Language & Visualizations (MEDIUM)**
-- Is the content summary written in Thai? (Technical terms can use transliteration).
-- For complex concepts, are interactive elements, tables, or visualizations (Mermaid) included to supplement the text?
+**5. Language & Visualizations (MEDIUM / HIGH)**
+- **Language (MEDIUM):** Is the content summary written in Thai? (Technical terms can use transliteration).
+- **Visualizations (MEDIUM):** For complex concepts, are interactive elements, tables, comparison tables, or visualizations (Mermaid, `.canvas`, `.base`) included to supplement the text?
+- **Text Completeness (HIGH):** Are the visualizations acting strictly as supplements? If the visualization replaces comprehensive text descriptions, or if the text depth/length was reduced because of the visualization, flag this as **HIGH**.
 
 ## Tier definitions
 
@@ -63,12 +66,12 @@ Automatically at the end of the **Staging Phase** of an Orchestration Plan, befo
 VERDICT: SHIP / HOLD-FIX-FIRST / NEEDS-REWORK
 
 **BLOCKER** (N findings)
-1. <file:line> — <one-line description>
-   Fix: <one-line recommended action>
+- [ ] <file:line> — <one-line description>
+  - **Fix:** <one-line recommended action>
 
 **HIGH** (N findings)
-1. <file:line> — <one-line description>
-   Fix: <one-line recommended action>
+- [ ] <file:line> — <one-line description>
+  - **Fix:** <one-line recommended action>
 
 **MEDIUM** (N findings)
 [same format]

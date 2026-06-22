@@ -32,7 +32,7 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
 
 3. **Execute Phases Step-by-Step**
    - Execute the tasks for the current Phase. **If there are multiple files in a Phase, you should invoke Subagents to process each file in parallel** for maximum efficiency.
-   - Always use `TEMPLATE.md` when creating new Wiki pages. Synthesize the knowledge according to the Wiki rules in `CONTEXT.md` and properly format using the `obsidian-markdown` skill.
+   - Determine the appropriate page `type` (e.g., `concept`, `entity`, `source`) and copy the exact frontmatter and heading structure from the corresponding template in the `_templates/` directory. Delete any sections that have no content. Synthesize the knowledge according to the Wiki rules in `CONTEXT.md` and properly format using the `obsidian-markdown` skill.
    - **Data Accuracy, Research & Content Rules**:
      - **Content Visualization & Structuring**: If the content is complex or difficult to understand, you must proactively use interactive elements to supplement the text:
        - **Simple flows/comparisons**: Use standard Markdown tables or Mermaid flowcharts.
