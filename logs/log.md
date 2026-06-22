@@ -20,3 +20,10 @@ Chronological audit trace of Agent operations.
 | Created | `wiki/concepts/dynamic_workflow.md` | Concept page |
 | Created | `wiki/concepts/progressive_disclosure.md` | Concept page |
 | Created | `wiki/summarize/claude_subagents_summary.md` | Synthesis & Summary |
+
+## [2026-06-22] lint-fix | Resolve Dead Links
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `wiki/entities/claude_code.md` | Stub Page for Dead Link |
+| Created | `wiki/concepts/orchestration.md` | Stub Page for Dead Link |
+| Created | `wiki/entities/nate_herk.md` | Stub Page for Dead Link |
