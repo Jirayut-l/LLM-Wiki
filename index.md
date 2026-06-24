@@ -30,6 +30,10 @@ This is the central catalog of the knowledge base. It is manually updated by the
 - [[Claude Subagent]]
 - [[Dynamic Workflow]]
 - [[Progressive Disclosure]]
+- [[concept_claude_code_routines|Claude Code Routines]]
+- [[concept_routine_triggers|Routine Triggers]]
+- [[concept_routine_context_and_steerability|Routine Context and Steerability]]
+- [[concept_proactive_agent_use_cases|Proactive Agent Use Cases]]
 
 ## Sources
 *List of ingested raw sources with links to their Wiki source pages.*
@@ -37,7 +41,9 @@ This is the central catalog of the knowledge base. It is manually updated by the
 - [[How to Build Claude Subagents Better Than 99% of People]]
 - [[From_Zero_to_Head_of_AI_in_1_Year|From Zero to Head of AI in 1 Year]]
 - [[Build a proactive agent workflow with Claude Code]]
+- [[source_build_a_proactive_agent_workflow_with_claude_code|Build a proactive agent workflow with Claude Code]]
 
 ## Summaries
 *List of synthesis and summary pages.*
 - [[claude_subagents_summary|Claude Subagents Summary]]
+- [[claude_code_routines_summary|Building Proactive Agents with Claude Code]]
