@@ -18,3 +18,4 @@
 *   Systematically fixed all issues from Lint Report 2026-06-24 via Orchestration Plan (stubbed 15 dead links, auto-linked 12 orphans, filled frontmatter gaps, resolved empty sections, and cleaned 27 stale entries in index.md).
 *   Ingested Claude Prompt Caching concepts, Token Dashboard, and Session Handoff.
 *   Updated `index.md` and `log.md` with new Wiki pages for Prompt Caching.
+*   Ingested "From Zero to Head of AI" source, extracted Ailin, Yang, Head of AI and Show Yourself concepts.

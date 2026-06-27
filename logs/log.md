@@ -57,3 +57,13 @@ Chronological audit trace of Agent operations.
 | Updated | `wiki/concepts/orchestration.md` (and 4 others) | Fixed Empty Sections |
 | Updated | `index.md` | Cleaned 27 Stale Entries |
 | Updated | `hot.md` | Finalized lint fixes |
+
+## [2026-06-27] ingest | From Zero to Head of AI
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Ingested | `wiki/sources/source_from_zero_to_head_of_ai.md` | Source file |
+| Created | `wiki/entities/entity_ailin.md` | Entity page |
+| Created | `wiki/entities/entity_yang.md` | Entity page |
+| Created | `wiki/concepts/concept_head_of_ai.md` | Concept page |
+| Created | `wiki/concepts/concept_show_yourself.md` | Concept page |
+| Created | `wiki/summarize/summary_zero_to_head_of_ai.md` | Synthesis & Summary |
