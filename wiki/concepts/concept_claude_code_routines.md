@@ -55,6 +55,18 @@ flowchart TD
 
 ## Related
 - [[source_build_a_proactive_agent_workflow_with_claude_code]]
+- [[claude_prompt_caching]]
+- [[claude_subagent]]
+- [[dynamic_workflow]]
+- [[orchestration]]
+- [[progressive_disclosure]]
+- [[session_handoff]]
+- [[token_dashboard]]
+- [[claude_code]]
+- [[nate_herk]]
+- [[claude_code_routines_summary]]
+- [[claude_prompt_caching_summary]]
+- [[claude_subagents_summary]]
 
 ## Questions to follow up
 - What are the cost implications or token limits associated with running long or frequent automated workflows (Routines) on Claude Code?

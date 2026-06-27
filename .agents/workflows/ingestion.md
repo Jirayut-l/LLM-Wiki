@@ -27,8 +27,8 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
    - Break down the ingestion into logical **Phases** (e.g., Phase 1: Core Concepts, Phase 2: Techniques).
    - **Granular Task Breakdown & Single-File Scope**: Sub-tasks within each Phase must be granular. Each task must explicitly target exactly **one specific file** (e.g., `[ ] Create wiki/concepts/llm.md`) to enable parallel delegation to subagents.
    - The final Phase must always be **Index, Audit Log, & Hot Cache Update**.
-   - Include a **Verification & Checkpoint** step at the end of every Phase.
-   - Present the summary of the created plan to the user and wait for their approval to start Phase 1.
+   - Include a **Verification** step at the end of every Staging Phase, and a single **Checkpoint** only at the final Commit Phase.
+   - After creating the Orchestration Plan, immediately proceed to execute Phase 1 without waiting for user approval.
 
 3. **Execute Phases Step-by-Step**
    - Execute the tasks for the current Phase. **If there are multiple files in a Phase, you should invoke Subagents to process each file in parallel** for maximum efficiency.
@@ -43,16 +43,17 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
      - **Web Search for Gaps**: หากข้อมูลในต้นฉบับไม่เพียงพอหรือไม่แน่ใจ ให้ใช้เครื่องมือ Web Search เพื่อค้นหาข้อมูลเพิ่มเติมมาเสริมได้ **แต่ต้องระบุแหล่งที่มาอ้างอิงให้ชัดเจน** ว่าเนื้อหาส่วนใดมาจากต้นฉบับ และส่วนใดมาจาก Web Search
      - **Unresolved Questions**: หากค้นหาข้อมูลเพิ่มเติมแล้วยังไม่พบข้อเท็จจริงที่ยืนยันได้ ให้ใส่หัวข้อใหม่ชื่อ `## Questions to follow up` ไว้ที่ด้านล่างสุดของหน้า Wiki นั้นๆ
    - Check off (`[x]`) the tasks in the Orchestration Plan file as they are completed.
-   - **Phase Verification**: Before asking for approval, invoke the `verifier` subagent (defined in `.agents/agents/verifier.md`) to review the drafted pages of this phase for accuracy and formatting against the source. Present the verifier's report to the user.
-   - **Phase Checkpoint**: Stop execution and ask the user for "อนุมัติ" (Checkpoint). Do not proceed to the next Phase until explicit approval is given.
+   - **Phase Verification**: Invoke the `verifier` subagent (defined in `.agents/agents/verifier.md`) to review the drafted pages of this phase for accuracy and formatting against the source. If issues are found, attempt to fix them automatically (up to 2 retries). If issues persist, log them and proceed to the next Phase. Unresolved issues will be presented at the final Checkpoint.
 
 4. **Updates Phase (Index, Logs, & Hot Cache)**
    - This must be the final Phase in your Orchestration Plan.
-   - Update `index.md` by listing the new concepts/entities and linking the ingested raw source.
-   - Append a chronological audit trace of all created/updated files to `log.md`.
-   - **Log Rollup Check**: After appending to `log.md`, check its length. If it exceeds 100 entries, stop and create a **Checkpoint**. Notify the user that the log is getting long and ask for explicit approval ("อนุมัติ") to invoke the `wiki-fold` skill to roll up the old log entries into meta-pages.
-   - Update `hot.md` to briefly summarize the recent ingestion and any new open decisions or ongoing focuses. **If there were any "Questions to follow up" generated in Step 3, you MUST record them here as Open Items / Decisions in Flight.**
-   - Run Phase Verification and Phase Checkpoint as usual. Once approved, check off the final tasks in the plan.
+   - **Final Checkpoint**: This is the ONLY checkpoint in the workflow. Stop execution and present a consolidated report of the plan, all drafted files, and any unresolved verifier issues. Ask the user for explicit approval ("อนุมัติ") before making any changes to the main Wiki.
+   - *Note on Log Rollup*: If `log.md` is expected to exceed 100 entries, include a note in your Checkpoint message that you will also automatically run the `wiki-fold` skill upon approval.
+   - Once approved, proceed to execute the phase:
+     - Move the approved draft files to their final `wiki/` locations.
+     - Update `index.md` by listing the new concepts/entities and linking the ingested raw source.
+     - Append a chronological audit trace of all created/updated files to `log.md`. (If over 100 entries, invoke `wiki-fold` now).
+     - Update `hot.md` to briefly summarize the recent ingestion and any new open decisions or ongoing focuses. **If there were any "Questions to follow up" generated in Step 3, you MUST record them here as Open Items / Decisions in Flight.**
 
 5. **Wiki Health Check**
    - Once all Phases (including the Updates Phase) are fully completed and verified, invoke the `wiki-lint` skill to scan the vault. Generate a health report to ensure no dead links or orphan pages were accidentally created during this ingestion. Notify the user that the ingestion process is 100% complete.

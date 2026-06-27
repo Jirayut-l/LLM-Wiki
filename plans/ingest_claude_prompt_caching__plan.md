@@ -1,28 +1,52 @@
-# Orchestration Plan: [ชื่อโปรเจค/งาน]
+# Orchestration Plan: Ingest "Give Me 10 Mins and I'll Save You Millions of Claude Tokens"
 
 ## 🎯 Goal (เป้าหมายหลัก)
-[เป้าหมายของการทำงานนี้]
+Ingest knowledge about Claude Prompt Caching, Token Dashboard, Session Handoff, and Nate Herk from the raw YouTube video transcript.
 
 ## 🛠️ Phases (ลำดับการทำงาน)
 
-### Staging Phase 1: [หัวข้อของ Phase เช่น Core Concepts]
-- [ ] งานย่อย 1 (ระบุเป้าหมายเป็น 1 ไฟล์: e.g., Create `plans/drafts/xyz.md`)
-- [ ] งานย่อย 2 (e.g., Create `plans/drafts/abc.md`)
-- **Verification:** เรียก `verifier` subagent ตรวจสอบความถูกต้องและรูปแบบของเนื้อหาที่ทำใน Phase นี้
+### Staging Phase 1: Entities & Basic Tools
+- [x] Create `plans/drafts/nate_herk.md` (Entity: Author of the video/content)
+- [x] Create `plans/drafts/token_dashboard.md` (Concept/Tool: Local token tracking dashboard)
+- [x] Create `plans/drafts/session_handoff.md` (Concept/Skill: Session handoff strategy)
+- **Verification:** เรียบร้อยแล้ว (Verified)
 
-### Staging Phase 2: [หัวข้อของ Phase เช่น Techniques]
-- [ ] งานย่อย 1 ...
-- [ ] งานย่อย 2 ...
-- **Verification:** เรียก `verifier` subagent ตรวจสอบความถูกต้องและรูปแบบของเนื้อหาที่ทำใน Phase นี้
+## Verification Report (Phase 1)
+VERDICT: SHIP
 
-### Staging Phase [N-1]: Synthesis & Summary
-- [ ] รวบรวมและสรุปภาพรวม เนื้อหาหลัก และ Key Takeaways (เช่น Create `plans/drafts/[ชื่อหัวข้อ]_summary.md` โดยใช้ `_templates/summary.md`) เพื่อให้เชื่อมโยงไปยัง Concept หรือ Entity ได้ง่าย
-- **Verification:** เรียก `verifier` subagent ตรวจสอบความถูกต้องและรูปแบบของเนื้อหาที่ทำใน Phase นี้
+**BLOCKER** (0 findings)
+**HIGH** (0 findings)
+**MEDIUM** (0 findings)
+**LOW** (0 findings)
+
+### Staging Phase 2: Core Concepts
+- [x] Create `plans/drafts/claude_prompt_caching.md` (Concept: Mechanisms of Prompt Caching, TTL, cost structures, and what breaks cache)
+- **Verification:** เรียบร้อยแล้ว (Verified)
+
+## Verification Report (Phase 2)
+VERDICT: SHIP
+
+**BLOCKER** (0 findings)
+**HIGH** (0 findings)
+**MEDIUM** (0 findings)
+**LOW** (0 findings)
+
+### Staging Phase 3: Synthesis & Summary
+- [x] Create `plans/drafts/claude_prompt_caching_summary.md` (Summary: Key takeaways linking to the concept and source file)
+- **Verification:** เรียบร้อยแล้ว (Verified)
+
+## Verification Report (Phase 3)
+VERDICT: SHIP
+
+**BLOCKER** (0 findings)
+**HIGH** (0 findings)
+**MEDIUM** (0 findings)
+**LOW** (0 findings)
 
 ### Commit Phase: Updates & Migration
 *(Phase สุดท้ายของทุก Orchestration Plan เสมอ)*
 - **Checkpoint:** หยุดรอให้ User ตรวจสอบผลงานทั้งหมดใน Staging (พร้อมแสดง unresolved issues ถ้ามี) และพิมพ์ "อนุมัติ" ก่อนเริ่มดำเนินการ Commit
-- [ ] **Move Files:** ย้ายไฟล์ทั้งหมดจาก `plans/drafts/` ไปยังตำแหน่งจริงใน `wiki/` (เช่น `wiki/concepts/`)
+- [ ] **Move Files:** ย้ายไฟล์ทั้งหมดจาก `plans/drafts/` ไปยังตำแหน่งจริงใน `wiki/` (เช่น `wiki/concepts/`, `wiki/entities/`)
 - [ ] **Update Index:** เพิ่มลิงก์และเนื้อหาใหม่ลงในไฟล์ `index.md`
 - [ ] **Update Master Log:** บันทึกการกระทำลงใน `log.md` (หากเกิน 100 entries ให้รัน `wiki-fold` skill ทันที)
 - [ ] **Update Hot Cache:** อัปเดต `hot.md` (ด้วย Focus ปัจจุบัน, การตัดสินใจ หรือคำถามที่ต้องตามต่อ)

@@ -5,6 +5,7 @@ aliases: []
 tags: [source]
 created: 2026-06-24
 url: "https://www.youtube.com/watch?v=eSP7PLTXNy8&t=369s"
+file_path: "N/A"
 author: "Maya (Anthropic)"
 ---
 # Build a proactive agent workflow with Claude Code

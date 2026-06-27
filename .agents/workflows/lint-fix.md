@@ -3,7 +3,7 @@
 This workflow defines the systematic process for resolving errors identified in a Wiki Lint Report.
 
 ## Phase 1: Initialization & Plan Creation
-1. **Locate the Report**: Find the latest lint report in the `wiki/meta/lint-report` directory (e.g., `wiki/meta/lint-report/lint-report-YYYY-MM-DD.md`) unless the user explicitly provided a specific file.
+1. **Locate the Report**: Find the latest lint report in the `wiki/meta` directory (e.g., `wiki/meta/lint-report-YYYY-MM-DD.md`) unless the user explicitly provided a specific file.
 2. **Create Orchestration Plan**: Create a new Orchestration Plan in the `plans/lints/` directory (e.g., `plans/lints/lint-fix-YYYY-MM-DD.md`).
 3. **Group by Error Type**: Structure the plan into distinct phases based on the Error Types found in the report (e.g., Phase 1: Stale Index Entries, Phase 2: Dead Links).
 4. **Granular Tasks**: Within each phase, list granular, single-file scoped tasks (e.g., "Fix Empty Sections in `[[filename]]`").
@@ -13,8 +13,8 @@ This workflow defines the systematic process for resolving errors identified in 
 Execute the tasks phase-by-phase according to the following execution rules for each error type:
 
 ### 1. Empty Sections
-- **Goal**: Attempt to populate empty sections with actual knowledge.
-- **Rule**: The Agent must search the Wiki or read relevant Raw Sources (`raw/`) to gather information. If information is found, generate the content for the section. If no information can be found, the Agent must explicitly write `- None` beneath the heading to comply with the standard Template.
+- **Goal**: Clean up headings that have no content.
+- **Rule**: The Agent must search the Wiki or read relevant Raw Sources (`raw/`) to gather information. If information is found, generate the content for the section. If no information can be found, the Agent must **delete the empty heading entirely**. Do not write `- None` and do not leave the heading blank, as this complies with the `CONTEXT.md` rules.
 
 ### 2. Dead Links
 - **Goal**: Resolve broken links by ensuring a valid destination exists.

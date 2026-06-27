@@ -1,15 +1,13 @@
 # Hot Cache
 
-**Last Updated:** 2026-06-24
+**Last Updated:** 2026-06-26
 
 ## Current Focus
-*   Ingesting source "Build a proactive agent workflow with Claude Code".
-*   Finalizing the Commit Phase of the Orchestration Plan.
+*   Resolved issues from the latest lint report to maintain Wiki health.
 
 ## Active Files
-*   `wiki/concepts/concept_claude_code_routines.md`
-*   `wiki/summarize/claude_code_routines_summary.md`
-*   `plans/ingest_claude_code_routines_plan.md`
+*   `plans/lints/lint-fix-2026-06-24.md`
+*   `index.md`
 
 ## Decisions in Flight
 *   How to effectively set up limits (cost/tokens) for Dynamic Workflows to prevent runaway costs?
@@ -17,5 +15,6 @@
 *   What are the cost implications or token limits associated with running long or frequent automated workflows (Routines) on Claude Code?
 
 ## Recent Changes
-*   Ingested Claude Code Routines concepts and use cases into the Wiki.
-*   Updated `index.md` with new Wiki pages for Routines.
+*   Systematically fixed all issues from Lint Report 2026-06-24 via Orchestration Plan (stubbed 15 dead links, auto-linked 12 orphans, filled frontmatter gaps, resolved empty sections, and cleaned 27 stale entries in index.md).
+*   Ingested Claude Prompt Caching concepts, Token Dashboard, and Session Handoff.
+*   Updated `index.md` and `log.md` with new Wiki pages for Prompt Caching.

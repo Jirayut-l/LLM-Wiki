@@ -13,11 +13,11 @@ Perform a health check on the wiki to maintain structural integrity. This is a *
 
 ## 1. Core Lint Checks
 
-You must systematically scan the `wiki/` directory (excluding `wiki/meta/`), `index.md`, and `hot.md` (using tools like `grep_search` and `list_dir`) and check for the following issues:
+You must systematically scan only the explicitly allowed targets: `wiki/` directory (excluding `wiki/meta/`), `index.md`, `hot.md`, and the active `logs/log.md`. When using tools like `grep_search` or `list_dir`, **you must target these specific paths individually** rather than scanning the root directory. Check for the following issues:
 
-1. **Dead Links**: Wikilinks (e.g., `[[Page Name]]`) that reference a page that does not exist anywhere in the vault.
-2. **Orphan Pages**: Wiki pages that have NO inbound wikilinks from any other page in the vault. Do NOT count links from `index.md` or `hot.md` as valid inbound links. `index.md` and `hot.md` themselves are exempt from being flagged as orphans.
-3. **Frontmatter Gaps**: Pages missing required YAML frontmatter fields based on their `type`. You must first read the page's `type`, then check the corresponding `_templates/[type].md` file to see what frontmatter keys are required. Ensure all keys from the template exist in the target page. `index.md` and `hot.md` are exempt from this check.
+1. **Dead Links**: Wikilinks (e.g., `[[Page Name]]`) that reference a page that does not exist anywhere in the vault. (Applicable to all allowed targets, including `logs/log.md`).
+2. **Orphan Pages**: Wiki pages that have NO inbound wikilinks from any other page in the vault. Do NOT count links from `index.md`, `hot.md`, or `logs/log.md` as valid inbound links. `index.md`, `hot.md`, and `logs/log.md` themselves are exempt from being flagged as orphans.
+3. **Frontmatter Gaps**: Pages missing required YAML frontmatter fields based on their `type`. You must first read the page's `type`, then check the corresponding `_templates/[type].md` file to see what frontmatter keys are required. Ensure all keys from the template exist in the target page. `index.md`, `hot.md`, and `logs/log.md` are exempt from this check.
 4. **Empty Sections**: Markdown headings (`## Heading`) that have no content or text beneath them.
 5. **Invalid Sections**: Top-level and second-level headings (`#` and `##`) that are not explicitly defined in the corresponding `_templates/[type].md` file. Subheadings (`###` and below) are exempt and allowed for flexible structuring.
 6. **Stale Index Entries**: Items listed in `wiki/index.md` that point to deleted or renamed pages.
@@ -81,5 +81,5 @@ Once the report is generated:
 ## 4. Constraints & Rules
 
 - **Read-Only**: ห้ามแก้ไข (Auto-fix) ข้อบกพร่องใดๆ ที่เจอระหว่างรันเด็ดขาด เพื่อความปลอดภัยของข้อมูล
-- **Scope**: สแกนเฉพาะไฟล์ในโฟลเดอร์ `wiki/` (ยกเว้นโฟลเดอร์ `wiki/meta/`), ไฟล์ `index.md` และ `hot.md` เท่านั้น ห้ามสแกนหรือยุ่งเกี่ยวกับโฟลเดอร์ `.raw/`
+- **Strict Scope**: อนุญาตให้สแกนและอ่านข้อมูลเฉพาะไฟล์/โฟลเดอร์ใน Whitelist นี้เท่านั้น: `wiki/` (ยกเว้น `wiki/meta/`), `index.md`, `hot.md`, และ `logs/log.md` (เฉพาะไฟล์ปัจจุบัน) **ห้าม**ใช้คำสั่งค้นหาแบบครอบจักรวาล (เช่น การรัน `grep_search` บนโฟลเดอร์ Root `/`) เด็ดขาด ให้เรียกใช้เครื่องมือกับเป้าหมายตามที่ระบุทีละรายการ
 - **Thai Language**: พิมพ์สรุปโต้ตอบกับผู้ใช้เป็นภาษาไทย
