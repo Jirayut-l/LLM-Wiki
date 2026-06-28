@@ -35,3 +35,4 @@ Execute the tasks phase-by-phase according to the following execution rules for 
 ## Phase 3: Finalization
 1. Update `hot.md` to reflect the completed lint fixes.
 2. Log the execution in `log.md`.
+3. **Clean Up**: Delete the Lint Report file (from `wiki/meta/`) and this Orchestration Plan file to maintain a clean workspace according to the Zero-Warning Policy.

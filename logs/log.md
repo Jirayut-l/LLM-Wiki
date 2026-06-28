@@ -91,3 +91,10 @@ Chronological audit trace of Agent operations.
 | Created | `wiki/sources/give_me_10_mins_and_ill_save_you_millions_of_claude_tokens.md` | Standardized filename |
 | Created | `wiki/sources/how_to_build_claude_subagents.md` | Standardized filename |
 | Updated | `index.md` | Updated links to standardized files |
+
+## [2026-06-28] cleanup | Abort and Clean Stale Plans
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Aborted & Deleted | `plans/deduplicate_sources.md` | Plan was barely started; user chose to abort and clean up |
+| Aborted & Deleted | `plans/ingest_claude_prompt_caching__plan.md` | Stuck in Commit Phase; user chose to abort and clean up |
+| Aborted & Deleted | `plans/ingest_claude_subagents_plan.md` | Stuck on a minor lint task; user chose to abort and clean up |
