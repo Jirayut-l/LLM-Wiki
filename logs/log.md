@@ -67,3 +67,27 @@ Chronological audit trace of Agent operations.
 | Created | `wiki/concepts/concept_head_of_ai.md` | Concept page |
 | Created | `wiki/concepts/concept_show_yourself.md` | Concept page |
 | Created | `wiki/summarize/summary_zero_to_head_of_ai.md` | Synthesis & Summary |
+
+## [2026-06-27] lint-fix | Resolve Lint Report 2026-06-27
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `plans/lints/lint-fix-2026-06-27.md` | Orchestration Plan |
+| Created | `wiki/concepts/*.md`, `wiki/entities/*.md`, `wiki/sources/*.md` | 15 Stub Pages for Dead Links |
+| Updated | `wiki/entities/entity_ailin.md` | Auto-linked 2 Orphan Pages |
+| Updated | `wiki/entities/Claude.md` | Fixed Frontmatter Gaps & Empty Sections |
+| Updated | `wiki/entities/claude_code.md` | Fixed Invalid Sections |
+
+## [2026-06-28] deduplicate | Standardize Source Files
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Deleted | `wiki/sources/From Zero to Head of AI in 1 Year (as a regular person).md` | Non-compliant filename |
+| Deleted | `wiki/sources/Give Me 10 Mins and I'll Save You Millions of Claude Tokens.md` | Non-compliant filename |
+| Deleted | `wiki/sources/How to Build Claude Subagents Better Than 99% of People.md` | Non-compliant filename |
+| Deleted | `wiki/sources/how_to_build_claude_subagents_source.md` | Non-compliant filename |
+| Deleted | `wiki/sources/source_build_a_proactive_agent_workflow_with_claude_code.md` | Non-compliant filename |
+| Deleted | `wiki/sources/source_from_zero_to_head_of_ai.md` | Non-compliant filename |
+| Created | `wiki/sources/build_a_proactive_agent_workflow_with_claude_code.md` | Standardized filename |
+| Created | `wiki/sources/from_zero_to_head_of_ai.md` | Standardized filename |
+| Created | `wiki/sources/give_me_10_mins_and_ill_save_you_millions_of_claude_tokens.md` | Standardized filename |
+| Created | `wiki/sources/how_to_build_claude_subagents.md` | Standardized filename |
+| Updated | `index.md` | Updated links to standardized files |

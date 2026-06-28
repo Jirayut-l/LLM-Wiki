@@ -24,5 +24,5 @@ Triggers คือองค์ประกอบสำคัญใน Claude Cod
 - **Custom Webhooks**: รองรับการยิง HTTP POST Request จากระบบภายนอกเพื่อมากระตุ้นให้ Routine ทำงาน พร้อมส่ง Payload ข้อมูลมาเป็นบริบท (Context) ได้ เช่น การให้ CI/CD Pipeline เรียก Webhook หลังจากการ Deploy เสร็จสิ้น
 
 ## Related
-- [[concept_claude_code_routines]]
+- [[claude_code_routines]]
 - [[source_build_a_proactive_agent_workflow_with_claude_code]]

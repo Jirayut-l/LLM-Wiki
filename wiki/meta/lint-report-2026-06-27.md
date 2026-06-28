@@ -18,7 +18,7 @@ status: developing
 - [[Session Handoff]]: referenced in [[claude_prompt_caching]], [[claude_prompt_caching_summary]] but does not exist.
 - [[Token Dashboard]]: referenced in [[claude_prompt_caching]], [[claude_prompt_caching_summary]] but does not exist.
 - [[How to Build Claude Subagents Better Than 99% of People]]: referenced in [[claude_subagent]], [[dynamic_workflow]] but does not exist.
-- [[From Zero to Head of AI in 1 Year (as a regular person)]]: referenced in [[concept_head_of_ai]], [[concept_show_yourself]], [[entity_ailin]], [[entity_yang]], [[summary_zero_to_head_of_ai]] but does not exist.
+- [[From Zero to Head of AI in 1 Year (as a regular person)]]: referenced in [[head_of_ai]], [[show_yourself]], [[ailin]], [[yang]], [[summary_zero_to_head_of_ai]] but does not exist.
 - [[Claude Subagent]]: referenced in [[dynamic_workflow]], [[claude_subagents_summary]] but does not exist.
 - [[Subagent]]: referenced in [[progressive_disclosure]], [[how_to_build_claude_subagents_source]] but does not exist.
 - [[Orchestration]]: referenced in [[progressive_disclosure]], [[how_to_build_claude_subagents_source]] but does not exist.

@@ -23,4 +23,4 @@ author: "Maya (Anthropic)"
 - **เริ่มต้นใช้งานง่าย:** สามารถเริ่มต้นใช้งาน Routines ได้ทันทีผ่านการพิมพ์คำสั่ง `/schedule` ใน Claude Code CLI
 
 ## Related Concepts
-- [[concept_claude_code_routines]]
+- [[claude_code_routines]]

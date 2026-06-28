@@ -17,7 +17,9 @@ Ailin คือบุคคลที่สามารถพลิกผัน�
 - **ความก้าวหน้าทางอาชีพ:** ปัจจุบันดำรงตำแหน่ง Head of AI ที่ Yang โดยรับผิดชอบในการดูแลและขับเคลื่อนกลยุทธ์ด้าน AI ให้กับบริษัทในเครือรวม 15 แห่ง ทั้งในระดับของการวางกลยุทธ์และการลงมือปฏิบัติจริง (Hands-on)
 
 ## Related
-- [[entity_yang]]
-- [[concept_head_of_ai]]
-- [[concept_show_yourself]]
+- [[yang]]
+- [[head_of_ai]]
+- [[show_yourself]]
 - [[From Zero to Head of AI in 1 Year (as a regular person)]]
+- [[source_from_zero_to_head_of_ai]]
+- [[summary_zero_to_head_of_ai]]

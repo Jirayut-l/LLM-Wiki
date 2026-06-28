@@ -74,7 +74,7 @@ status: developing
 Once the report is generated:
 1. Provide a brief summary of the findings in the chat (e.g., "พบลิงก์เสีย 3 จุด และหน้า Orphan 2 หน้า").
 2. สร้างลิงก์ให้ผู้ใช้กดไปดู Report ที่สร้างขึ้น: [lint-report](file:///Users/spectrum/Resources/LLM-Wiki/wiki/meta/lint-report-YYYY-MM-DD.md)
-3. แจ้งผู้ใช้ให้ทราบว่านี่เป็นการสแกนอย่างเดียว (Read-only) ไม่ได้มีการแก้ไขไฟล์ใดๆ หากต้องการแก้จุดไหนสามารถสั่งเป็นรายเคสได้เลย
+3. **Zero-Warning Policy**: หากพบปัญหา (Issues > 0) ให้แจ้งผู้ใช้อย่างหนักแน่นว่าเราใช้กฎ Zero-Warning และเสนอตัวให้รันเวิร์กโฟลว์ `wiki-lint-fix` ทันทีเพื่อเคลียร์ปัญหาให้หมด (เช่น "พบปัญหา 5 จุด เพื่อรักษาความสะอาดของ Wiki ตามกฎ Zero-Warning ให้ผมรัน `wiki-lint-fix` เพื่อเคลียร์ปัญหาเลยไหมครับ?")
 
 ---
 

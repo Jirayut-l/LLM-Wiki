@@ -32,7 +32,7 @@ sources: ["[[source_build_a_proactive_agent_workflow_with_claude_code]]"]
 - **Workflow**: ตั้งเวลา (Schedule) ให้ Agent เข้าไปอ่านและสรุปข้อมูลใน GitHub Issues หรือช่องแชทใน Slack เพื่อจัดลำดับความสำคัญ (Prioritize) ปัญหาที่สำคัญที่สุด หรือแม้กระทั่งเปิด PR เพื่อแก้ไขบั๊กเล็กๆ น้อยๆ ที่ค้างอยู่ในระบบ
 
 ## Related
-- [[concept_claude_code_routines]]
-- [[concept_routine_triggers]]
-- [[concept_routine_context_and_steerability]]
+- [[claude_code_routines]]
+- [[routine_triggers]]
+- [[routine_context_and_steerability]]
 - [[source_build_a_proactive_agent_workflow_with_claude_code]]

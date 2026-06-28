@@ -25,6 +25,6 @@ Context (บริบท) และ Steerability (การควบคุมท
 - **Output Verification**: การตรวจสอบผลลัพธ์ขั้นสุดท้าย เช่น การพรีวิวหน้าเอกสารที่ Agent สร้างขึ้นเพื่อยืนยันความถูกต้องก่อนกดยอมรับจริง
 
 ## Related
-- [[concept_claude_code_routines]]
-- [[concept_proactive_agent_use_cases]]
+- [[claude_code_routines]]
+- [[proactive_agent_use_cases]]
 - [[source_build_a_proactive_agent_workflow_with_claude_code]]

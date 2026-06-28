@@ -56,4 +56,5 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
      - Update `hot.md` to briefly summarize the recent ingestion and any new open decisions or ongoing focuses. **If there were any "Questions to follow up" generated in Step 3, you MUST record them here as Open Items / Decisions in Flight.**
 
 5. **Wiki Health Check**
-   - Once all Phases (including the Updates Phase) are fully completed and verified, invoke the `wiki-lint` skill to scan the vault. Generate a health report to ensure no dead links or orphan pages were accidentally created during this ingestion. Notify the user that the ingestion process is 100% complete.
+   - Once all Phases (including the Updates Phase) are fully completed and verified, invoke the `wiki-lint` skill to scan the vault. Generate a health report to ensure no dead links or orphan pages were accidentally created during this ingestion. 
+   - **Zero-Warning Policy**: If `wiki-lint` reports any issues, you must strongly encourage the user to resolve them immediately by running the `wiki-lint-fix` skill. Do not let issues accumulate. Notify the user that the ingestion process is complete but issues need fixing.

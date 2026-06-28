@@ -19,7 +19,7 @@ author: "[[Nate Herk | AI Automation]]"
 - **ให้ผลงานเป็นตัวเล่าเรื่องตอนสัมภาษณ์:** เมื่อผู้สัมภาษณ์ถามว่า "คุณเคยสร้างอะไรมาบ้าง?" การมีผลงานและการสาธิตจริง (Demo) ให้ดู จะสร้างความแตกต่างและโดดเด่นกว่าผู้สมัครคนอื่นที่อธิบายแค่ทฤษฎี
 
 ## Related Concepts
-- [[entity_ailin]]
-- [[entity_yang]]
-- [[concept_head_of_ai]]
-- [[concept_show_yourself]]
+- [[ailin]]
+- [[yang]]
+- [[head_of_ai]]
+- [[show_yourself]]
