@@ -3,7 +3,7 @@ type: entity
 aliases: ["Ailin"]
 tags: [entity, person]
 created: 2026-06-27
-sources: ["[[From Zero to Head of AI in 1 Year (as a regular person)]]"]
+sources: ["[[from_zero_to_head_of_ai|From Zero to Head of AI in 1 Year (as a regular person)]]"]
 ---
 # Ailin
 
@@ -20,6 +20,6 @@ Ailin คือบุคคลที่สามารถพลิกผัน�
 - [[yang]]
 - [[head_of_ai]]
 - [[show_yourself]]
-- [[From Zero to Head of AI in 1 Year (as a regular person)]]
-- [[source_from_zero_to_head_of_ai]]
+- [[from_zero_to_head_of_ai|From Zero to Head of AI in 1 Year (as a regular person)]]
+- [[from_zero_to_head_of_ai|source_from_zero_to_head_of_ai]]
 - [[summary_zero_to_head_of_ai]]

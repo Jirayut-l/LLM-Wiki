@@ -3,14 +3,20 @@ type: concept
 aliases: [Routine Triggers, Claude Code Routine Triggers]
 tags: [concept, ai, agent, automation, triggers]
 created: 2026-06-24
-sources: ["[[source_build_a_proactive_agent_workflow_with_claude_code]]"]
+sources: ["[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
+title: "Routine Triggers"
+complexity: intermediate
+domain: "AI Agents"
+updated: 2026-06-28
+status: developing
+related: ["[[claude_code_routines]]", "[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
 ---
 # Routine Triggers
 
-## Summary
+## Definition
 Triggers คือองค์ประกอบสำคัญใน Claude Code Routines ที่ระบุว่าตัว Agent ควรจะเริ่มทำงานเมื่อใด การมี Triggers ช่วยให้ Claude Code สามารถทำงานเชิงรุก (Proactive) ได้โดยไม่ต้องรอให้ผู้ใช้มาสั่งงานทุกครั้ง
 
-## Core Principles
+## How It Works
 การทำงานของ Triggers แบ่งออกเป็น 2 รูปแบบหลักๆ ได้แก่:
 
 ### 1. Schedule-based (Time-based Triggers)
@@ -23,6 +29,6 @@ Triggers คือองค์ประกอบสำคัญใน Claude Cod
 - **Native GitHub Events**: รองรับเหตุการณ์จาก GitHub โดยตรง เช่น เมื่อมีการเปิด Issue ใหม่, เมื่อมีการตัด Release ใหม่, หรือเมื่อ PR ที่มี Label เฉพาะ (เช่น "need docs") ถูก Merge เข้าสู่ระบบ
 - **Custom Webhooks**: รองรับการยิง HTTP POST Request จากระบบภายนอกเพื่อมากระตุ้นให้ Routine ทำงาน พร้อมส่ง Payload ข้อมูลมาเป็นบริบท (Context) ได้ เช่น การให้ CI/CD Pipeline เรียก Webhook หลังจากการ Deploy เสร็จสิ้น
 
-## Related
+## Connections
 - [[claude_code_routines]]
-- [[source_build_a_proactive_agent_workflow_with_claude_code]]
+- [[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]

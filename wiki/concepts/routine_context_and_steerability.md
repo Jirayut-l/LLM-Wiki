@@ -3,14 +3,20 @@ type: concept
 aliases: [Routine Context, Routine Steerability]
 tags: [concept, ai, agent, automation, context, steerability]
 created: 2026-06-24
-sources: ["[[source_build_a_proactive_agent_workflow_with_claude_code]]"]
+sources: ["[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
+title: "Routine Context and Steerability"
+complexity: advanced
+domain: "AI Agents"
+updated: 2026-06-28
+status: developing
+related: ["[[claude_code_routines]]", "[[proactive_agent_use_cases]]", "[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
 ---
 # Routine Context and Steerability
 
-## Summary
+## Definition
 Context (บริบท) และ Steerability (การควบคุมทิศทาง) เป็นสององค์ประกอบที่กำหนดขีดจำกัดความสามารถและความแม่นยำของ Claude Code Routines โดย Context จะเป็นตัวกำหนดว่า Agent มีข้อมูลและเครื่องมืออะไรให้ใช้บ้าง ส่วน Steerability คือกลไกในการควบคุมคุณภาพผลลัพธ์ไม่ให้ออกนอกลู่นอกทาง
 
-## Core Principles
+## How It Works
 
 ### 1. Context (บริบทและข้อมูล)
 เพดานความสำเร็จของ Agent ขึ้นอยู่กับบริบทที่มันได้รับ การให้ Context แก่ Routine ประกอบไปด้วย:
@@ -24,7 +30,7 @@ Context (บริบท) และ Steerability (การควบคุมท
 - **Agent-on-agent Review**: การใช้โมเดล Generator-Critiquer ในระบบ Multi-agent โดยให้ Routine ตัวแรกสร้างผลงาน (เช่น สร้าง PR) และใช้ Routine อีกตัวหนึ่งซึ่งถูก Trigger เมื่อมี PR ใหม่ เข้ามารีวิวและทิ้งคอมเมนต์วิจารณ์ผลงาน
 - **Output Verification**: การตรวจสอบผลลัพธ์ขั้นสุดท้าย เช่น การพรีวิวหน้าเอกสารที่ Agent สร้างขึ้นเพื่อยืนยันความถูกต้องก่อนกดยอมรับจริง
 
-## Related
+## Connections
 - [[claude_code_routines]]
 - [[proactive_agent_use_cases]]
-- [[source_build_a_proactive_agent_workflow_with_claude_code]]
+- [[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]

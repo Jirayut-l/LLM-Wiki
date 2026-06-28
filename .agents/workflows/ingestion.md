@@ -27,12 +27,12 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
    - Break down the ingestion into logical **Phases** (e.g., Phase 1: Core Concepts, Phase 2: Techniques).
    - **Granular Task Breakdown & Single-File Scope**: Sub-tasks within each Phase must be granular. Each task must explicitly target exactly **one specific file** (e.g., `[ ] Create wiki/concepts/llm.md`) to enable parallel delegation to subagents.
    - The final Phase must always be **Index, Audit Log, & Hot Cache Update**.
-   - Include a **Verification** step at the end of every Staging Phase, and a single **Checkpoint** only at the final Commit Phase.
-   - After creating the Orchestration Plan, immediately proceed to execute Phase 1 without waiting for user approval.
+   - Include a **Verification** step at the end of every Staging Phase. The workflow requires exactly two **Checkpoints**: one immediately after the Orchestration Plan is created (Plan Review Checkpoint), and one at the final Commit Phase (Final Checkpoint).
+   - **Plan Review Checkpoint**: After creating the Orchestration Plan, stop execution and ask the user for approval. If the user provides feedback, adjust the plan and ask again. The user may also manually edit the plan file. Once the user explicitly approves (e.g. "อนุมัติ"), proceed to execute Phase 1.
 
 3. **Execute Phases Step-by-Step**
    - Execute the tasks for the current Phase. **If there are multiple files in a Phase, you should invoke Subagents to process each file in parallel** for maximum efficiency.
-   - Determine the appropriate page `type` (e.g., `concept`, `entity`, `source`) and copy the exact frontmatter and heading structure from the corresponding template in the `_templates/` directory. Delete any sections that have no content. Synthesize the knowledge according to the Wiki rules in `CONTEXT.md` and properly format using the `obsidian-markdown` skill.
+   - Determine the appropriate page `type` (e.g., `concept`, `entity`, `source`) and copy the exact frontmatter and heading structure from the corresponding template in the `_templates/` directory. **CRITICAL:** Do NOT create a separate blank template file (e.g. `source_[name].md`) and save it to disk. You must apply the template directly to the final file in memory and save only the completed file (e.g. `[name].md`). Delete any sections that have no content. Synthesize the knowledge according to the Wiki rules in `CONTEXT.md` and properly format using the `obsidian-markdown` skill.
    - **Data Accuracy, Research & Content Rules**:
      - **Content Visualization & Structuring**: If the content is complex or difficult to understand, you must proactively use interactive elements to supplement the text:
        - **Simple flows/comparisons**: Use standard Markdown tables or Mermaid flowcharts.
@@ -40,6 +40,7 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
        - **Structured/Repetitive data**: Invoke the `obsidian-bases` skill to create a `.base` file for database-like views.
        *(Note: Do not reduce the depth or length of the text summary when adding visualizations.)*
      - **Strict No-Hallucination**: ห้ามแต่งเติมหรือบิดเบือนข้อมูลที่อ้างอิงจากเอกสารต้นฉบับเด็ดขาด สามารถอธิบายเนื้อหาให้เข้าใจง่ายได้ แต่ต้องคงความหมายหลักไว้
+     - **Wikilink Pre-flight Check (No Dead Links)**: Agents often hallucinate wikilinks. Before writing `[[any_link]]`, you MUST check `wiki/index.md` first. If the target exists in `index.md`, use its exact filename (e.g. `[[existing_file|Alias]]`). If it DOES NOT exist, do not create a wikilink; just write plain text, or add the topic to "Questions to follow up" in the hot cache.
      - **Web Search for Gaps**: หากข้อมูลในต้นฉบับไม่เพียงพอหรือไม่แน่ใจ ให้ใช้เครื่องมือ Web Search เพื่อค้นหาข้อมูลเพิ่มเติมมาเสริมได้ **แต่ต้องระบุแหล่งที่มาอ้างอิงให้ชัดเจน** ว่าเนื้อหาส่วนใดมาจากต้นฉบับ และส่วนใดมาจาก Web Search
      - **Unresolved Questions**: หากค้นหาข้อมูลเพิ่มเติมแล้วยังไม่พบข้อเท็จจริงที่ยืนยันได้ ให้ใส่หัวข้อใหม่ชื่อ `## Questions to follow up` ไว้ที่ด้านล่างสุดของหน้า Wiki นั้นๆ
    - Check off (`[x]`) the tasks in the Orchestration Plan file as they are completed.
@@ -47,7 +48,7 @@ Use this workflow **every time** the user asks to "ingest" a file, raw source, o
 
 4. **Updates Phase (Index, Logs, & Hot Cache)**
    - This must be the final Phase in your Orchestration Plan.
-   - **Final Checkpoint**: This is the ONLY checkpoint in the workflow. Stop execution and present a consolidated report of the plan, all drafted files, and any unresolved verifier issues. Ask the user for explicit approval ("อนุมัติ") before making any changes to the main Wiki.
+   - **Final Checkpoint**: Stop execution and present a consolidated report of the plan, all drafted files, and any unresolved verifier issues. Ask the user for explicit approval ("อนุมัติ") before making any changes to the main Wiki.
    - *Note on Log Rollup*: If `log.md` is expected to exceed 100 entries, include a note in your Checkpoint message that you will also automatically run the `wiki-fold` skill upon approval.
    - Once approved, proceed to execute the phase:
      - Move the approved draft files to their final `wiki/` locations.

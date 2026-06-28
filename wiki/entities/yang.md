@@ -3,7 +3,7 @@ type: entity
 aliases: [Yang]
 tags: [entity]
 created: 2026-06-27
-sources: ["[[From Zero to Head of AI in 1 Year (as a regular person)]]"]
+sources: ["[[from_zero_to_head_of_ai|From Zero to Head of AI in 1 Year (as a regular person)]]"]
 ---
 # Yang
 

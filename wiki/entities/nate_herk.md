@@ -3,7 +3,7 @@ type: entity
 aliases: ['Nate Herk', 'AI Automation Society']
 tags: [entity]
 created: 2026-06-24
-sources: ["[[Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]"]
+sources: ["[[give_me_10_mins_and_ill_save_you_millions_of_claude_tokens|Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]"]
 ---
 # Nate Herk
 
@@ -17,10 +17,10 @@ Nate Herk คือผู้เชี่ยวชาญและผู้สร�
 - **บริการและธุรกิจ**: ดำเนินธุรกิจและให้บริการผ่านแพลตฟอร์ม uppitai.com
 
 ## Related
-- [[Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]
-- [[Claude Code]]
-- [[Claude]]
-- [[Prompt Caching]]
+- [[give_me_10_mins_and_ill_save_you_millions_of_claude_tokens|Give Me 10 Mins and I'll Save You Millions of Claude Tokens]]
+- [[claude_code|Claude Code]]
+- [[claude|Claude]]
+- [[claude_prompt_caching|Prompt Caching]]
 
 ## Questions to follow up
 - None

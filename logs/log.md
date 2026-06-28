@@ -98,3 +98,28 @@ Chronological audit trace of Agent operations.
 | Aborted & Deleted | `plans/deduplicate_sources.md` | Plan was barely started; user chose to abort and clean up |
 | Aborted & Deleted | `plans/ingest_claude_prompt_caching__plan.md` | Stuck in Commit Phase; user chose to abort and clean up |
 | Aborted & Deleted | `plans/ingest_claude_subagents_plan.md` | Stuck on a minor lint task; user chose to abort and clean up |
+
+## [2026-06-28] ingest | Matt Pocock AI Workflow
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Ingested | `raw/Full Walkthrough Workflow for AI Coding — Matt Pocock.md` | Source file |
+| Created | `wiki/concepts/thesis_of_ai_engineering.md` | Concept page |
+| Created | `wiki/concepts/ai_workflow_research_prototyping.md` | Concept page |
+| Created | `wiki/concepts/the_grill_session.md` | Concept page |
+| Created | `wiki/concepts/writing_the_prd.md` | Concept page |
+| Created | `wiki/concepts/slicing_work_into_issues.md` | Concept page |
+| Created | `wiki/concepts/implementation_with_ai_agents.md` | Concept page |
+| Created | `wiki/concepts/human_in_the_loop_review.md` | Concept page |
+| Created | `wiki/concepts/deployment_and_monitoring.md` | Concept page |
+| Created | `wiki/concepts/designing_codebases_for_ai.md` | Concept page |
+| Created | `wiki/sources/matt_pocock_ai_workflow_summary.md` | Synthesis & Summary |
+
+## [2026-06-28] lint-fix | Resolve Lint Report 2026-06-28
+| Action | File | Notes |
+| :--- | :--- | :--- |
+| Created | `plans/lints/lint-fix-2026-06-28.md` | Orchestration Plan |
+| Created | `wiki/concepts/*.md`, `wiki/entities/*.md`, `wiki/sources/*.md` | 33 Stub Pages for Dead Links |
+| Updated | `wiki/concepts/*.md`, `wiki/sources/*.md` | Auto-linked 5 Orphan Pages |
+| Updated | `wiki/concepts/*.md`, `wiki/summarize/*.md` | Fixed Frontmatter Gaps, Empty Sections, and Invalid Sections across 14 pages |
+| Updated | `index.md` | Cleaned 4 Stale Entries |
+| Updated | `hot.md` | Finalized lint fixes |

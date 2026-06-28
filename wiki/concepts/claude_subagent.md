@@ -3,14 +3,20 @@ type: concept
 aliases: [Subagent, Subagents]
 tags: [concept, claude-code]
 created: 2026-06-22
-sources: ["[[How to Build Claude Subagents Better Than 99% of People]]"]
+sources: ["[[how_to_build_claude_subagents|How to Build Claude Subagents Better Than 99% of People]]"]
+title: "Claude Subagent"
+complexity: advanced
+domain: "AI Agents"
+updated: 2026-06-28
+status: developing
+related: ["[[how_to_build_claude_subagents|How to Build Claude Subagents Better Than 99% of People]]", "[[how_to_build_claude_subagents]]"]
 ---
 # Claude Subagent
 
-## Summary
+## Definition
 Claude Subagent คืออินสแตนซ์ (Instance) ย่อยของโมเดลภาษา (LLM) ใน Claude Code ที่ทำงานเฉพาะทางตามที่ได้รับมอบหมายจาก Main Agent (เซสชันหลักที่ผู้ใช้สื่อสารด้วย) โดย Subagent แต่ละตัวจะมี Context Window หรือหน่วยความจำที่แยกเป็นอิสระและสดใหม่เสมอ ทำให้สามารถประมวลผลงานขนาดใหญ่ได้โดยไม่ทำให้ Context ของ Main Agent รกไปด้วยข้อมูลที่ไม่จำเป็น นอกจากนี้ยังสามารถทำงานคู่ขนานกันได้ (Parallel execution) และเลือกใช้โมเดลที่เล็กลง (เช่น Haiku) เพื่อประหยัดค่าใช้จ่ายได้อีกด้วย
 
-## Core Principles
+## How It Works
 
 ### โครงสร้างและหลักการทำงาน
 Main Agent ทำหน้าที่เป็นผู้ควบคุม (Orchestrator) ที่คอยจ่ายงานให้กับ Subagents โดย Subagents จะไม่สามารถสื่อสารกันเองได้โดยตรง (ทำงานแบบ 1-to-1 กับ Main Agent) หลังทำงานเสร็จ Subagent จะส่งผลลัพธ์กลับไปยัง Main Agent เพื่อรายงานให้ผู้ใช้ทราบ
@@ -54,5 +60,6 @@ flowchart TD
 - งานที่ต้องทำตามลำดับขั้นตอนต่อเนื่อง (Sequential steps) เนื่องจาก Subagents ไม่สามารถส่งต่องานหรือคุยกันเองได้
 - งานที่ต้องอาศัยบริบทการสนทนาทั้งหมดที่ผ่านมา
 
-## Related
-- [[How to Build Claude Subagents Better Than 99% of People]]
+## Connections
+- [[how_to_build_claude_subagents|How to Build Claude Subagents Better Than 99% of People]]
+- [[how_to_build_claude_subagents]]

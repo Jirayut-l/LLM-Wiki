@@ -3,14 +3,20 @@ type: concept
 aliases: [Proactive Agent Use Cases]
 tags: [concept, ai, agent, automation, use-case]
 created: 2026-06-24
-sources: ["[[source_build_a_proactive_agent_workflow_with_claude_code]]"]
+sources: ["[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
+title: "Proactive Agent Use Cases"
+complexity: intermediate
+domain: "AI Agents"
+updated: 2026-06-28
+status: developing
+related: ["[[claude_code_routines]]", "[[routine_triggers]]", "[[routine_context_and_steerability]]", "[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
 ---
 # Proactive Agent Use Cases
 
-## Summary
+## Definition
 ตัวอย่างการประยุกต์ใช้งานระบบ Proactive Agent ผ่านฟีเจอร์ Claude Code Routines ซึ่งเปลี่ยนบทบาทของ AI จากเพียง "เครื่องมือ" (Tool) ที่ต้องรอรับคำสั่ง กลายเป็น "เพื่อนร่วมทีม" (Teammate) ที่สามารถตอบสนองต่อปัญหาและช่วยเหลืองานของ Developer ได้อัตโนมัติ
 
-## Core Principles
+## How It Works
 การออกแบบ Use Cases ที่ดีจำเป็นต้องพิจารณา 3 ส่วนหลัก ได้แก่: 1) Trigger (เริ่มเมื่อใด) 2) Context (ต้องใช้ข้อมูล/เครื่องมืออะไร) 3) Steerability (จะตรวจสอบอย่างไร)
 
 ตัวอย่าง Use Cases ที่น่าสนใจ:
@@ -31,8 +37,8 @@ sources: ["[[source_build_a_proactive_agent_workflow_with_claude_code]]"]
 ระบบจัดการปัญหาหรือสรุป Backlog อัตโนมัติ
 - **Workflow**: ตั้งเวลา (Schedule) ให้ Agent เข้าไปอ่านและสรุปข้อมูลใน GitHub Issues หรือช่องแชทใน Slack เพื่อจัดลำดับความสำคัญ (Prioritize) ปัญหาที่สำคัญที่สุด หรือแม้กระทั่งเปิด PR เพื่อแก้ไขบั๊กเล็กๆ น้อยๆ ที่ค้างอยู่ในระบบ
 
-## Related
+## Connections
 - [[claude_code_routines]]
 - [[routine_triggers]]
 - [[routine_context_and_steerability]]
-- [[source_build_a_proactive_agent_workflow_with_claude_code]]
+- [[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]

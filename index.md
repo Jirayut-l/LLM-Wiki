@@ -19,6 +19,15 @@ This is the central catalog of the knowledge base. It is manually updated by the
 - [[token_dashboard|Token Dashboard]]
 - [[session_handoff|Session Handoff]]
 - [[claude_prompt_caching|Claude Prompt Caching]]
+- [[thesis_of_ai_engineering|Thesis of AI Engineering]]
+- [[ai_workflow_research_prototyping|AI Workflow Research Prototyping]]
+- [[the_grill_session|The Grill Session]]
+- [[writing_the_prd|Writing the PRD]]
+- [[slicing_work_into_issues|Slicing Work into Issues]]
+- [[implementation_with_ai_agents|Implementation with AI Agents]]
+- [[human_in_the_loop_review|Human-in-the-Loop Review]]
+- [[deployment_and_monitoring|Deployment and Monitoring]]
+- [[designing_codebases_for_ai|Designing Codebases for AI]]
 
 ## Sources
 *List of ingested raw sources with links to their Wiki source pages.*
@@ -27,7 +36,4 @@ This is the central catalog of the knowledge base. It is manually updated by the
 
 ## Summaries
 *List of synthesis and summary pages.*
-- [[claude_subagents_summary|Claude Subagents Summary]]
-- [[claude_code_routines_summary|Building Proactive Agents with Claude Code]]
-- [[claude_prompt_caching_summary|10 Mins Claude Tokens Summary]]
-- [[summary_zero_to_head_of_ai|Zero to Head of AI Summary]]
+- [[matt_pocock_ai_workflow_summary|Matt Pocock AI Workflow Summary]]

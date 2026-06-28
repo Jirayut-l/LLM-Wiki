@@ -40,9 +40,9 @@ Automatically at the end of the **Staging Phase** of an Orchestration Plan, befo
 - **Subfolder Targeting:** Are the drafted files targeted for the correct subfolder (e.g., `wiki/entities/`, `wiki/concepts/`)? Files must **never** be placed in the root directory.
 - **Single-File Scope Constraint:** Does the current phase draft or modify more than one Content Page (Wiki Page)? Modifying multiple Content Pages in a single phase is prohibited. (Exception: Updating system files like `index.md` alongside exactly one content page is allowed). If violated, flag as **HIGH** to force granular task breakdown.
 
-**4. Wiki Hygiene & Indexing (HIGH)**
+**4. Wiki Hygiene & Indexing (HIGH/BLOCKER)**
 - **Indexing (HIGH):** Has the new source been properly added to `index.md`?
-- **Dead Links (LOW):** Note any dead links pointing to non-existent pages. Do not flag as HIGH or BLOCKER; these are acceptable during the drafting phase and will be systematically resolved later by the Wiki Lint workflow.
+- **Dead Links / Hallucinated Links (BLOCKER):** Check EVERY wikilink `[[...]]` created in the drafted files against `wiki/index.md` (or the files being created in this exact plan). If a link points to a non-existent file, it is a hallucination. Flag this as a **BLOCKER**. Agents are strictly forbidden from leaving dead links behind; they must convert them to plain text or add them to 'Questions to follow up'.
 
 **5. Language & Visualizations (MEDIUM / HIGH)**
 - **Language (MEDIUM):** Is the content summary written in Thai? (Technical terms can use transliteration).

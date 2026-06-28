@@ -3,14 +3,20 @@ type: concept
 aliases: [Claude Code Routines, Routines]
 tags: [concept, ai, agent, automation]
 created: 2026-06-24
-sources: ["[[source_build_a_proactive_agent_workflow_with_claude_code]]"]
+sources: ["[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]"]
+title: "Claude Code Routines"
+complexity: advanced
+domain: "AI Agents"
+updated: 2026-06-28
+status: developing
+related: ["[[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]", "[[build_a_proactive_agent_workflow_with_claude_code]]", "[[claude_prompt_caching]]", "[[claude_subagent]]", "[[dynamic_workflow]]", "[[orchestration]]", "[[progressive_disclosure]]", "[[session_handoff]]", "[[token_dashboard]]", "[[claude_code]]", "[[nate_herk]]", "[[claude_code_routines_summary]]", "[[claude_prompt_caching_summary]]", "[[claude_subagents_summary]]"]
 ---
 # Claude Code Routines
 
-## Summary
+## Definition
 Claude Code Routines คือฟีเจอร์ที่เปลี่ยน Claude Code จากเพียงเครื่องมือ (Tool) ให้กลายเป็นเพื่อนร่วมทีมเชิงรุก (Proactive teammate) โดยสามารถทำงานได้อัตโนมัติตามเงื่อนไขที่กำหนดไว้โดยไม่ต้องรอให้ผู้ใช้กดเริ่มทำงาน ช่วยขจัดความยุ่งยากในการสร้างและดูแลโครงสร้างพื้นฐาน (Infrastructure) เช่น การทำ Hosting, Cron jobs หรือ Authentication ด้วยตนเอง การทำงานจะรันอยู่บน Infrastructure ของ Anthropic แทนที่จะเป็นเครื่องของผู้ใช้
 
-## Core Principles
+## How It Works
 การทำงานของ Routines ประกอบด้วยหลักการสำคัญ 3 ประการ ได้แก่ Triggers, Context และ Steerability
 
 ```mermaid
@@ -53,8 +59,9 @@ flowchart TD
 - **Interactive Monitoring**: สามารถติดตามการทำงานของ Session ได้แบบ Real-time ผ่าน Web interface ของ Claude.ai เพื่อดูสิ่งที่ Agent กำลังประมวลผลอยู่ สามารถสอบถาม แทรกแซง (Nudge) หรือแม้กระทั่งสั่งหยุด/ดำเนินการต่อ (Resume) ได้
 - **Output Verification**: การตรวจสอบผลลัพธ์ให้แน่ใจว่าถูกต้องตามที่ต้องการก่อนที่จะยอมรับให้ใช้งานจริง
 
-## Related
-- [[source_build_a_proactive_agent_workflow_with_claude_code]]
+## Connections
+- [[build_a_proactive_agent_workflow_with_claude_code|source_build_a_proactive_agent_workflow_with_claude_code]]
+- [[build_a_proactive_agent_workflow_with_claude_code]]
 - [[claude_prompt_caching]]
 - [[claude_subagent]]
 - [[dynamic_workflow]]

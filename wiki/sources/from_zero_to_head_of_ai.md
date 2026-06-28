@@ -5,7 +5,7 @@ tags: [source]
 created: 2026-06-27
 url: "https://www.youtube.com/watch?v=diY71x7GUjI"
 file_path: "raw/From Zero to Head of AI in 1 Year (as a regular person).md"
-author: "[[Nate Herk | AI Automation]]"
+author: "[[nate_herk| AI Automation]]"
 ---
 # From Zero to Head of AI in 1 Year (as a regular person)
 

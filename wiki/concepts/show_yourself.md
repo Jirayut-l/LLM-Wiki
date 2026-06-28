@@ -3,14 +3,20 @@ type: concept
 aliases: ["Show Yourself", "Build in Public", "Transition Curve"]
 tags: [concept, mindset]
 created: 2026-06-27
-sources: ["[[From Zero to Head of AI in 1 Year (as a regular person)]]"]
+sources: ["[[from_zero_to_head_of_ai|From Zero to Head of AI in 1 Year (as a regular person)]]"]
+title: "Show Yourself"
+complexity: beginner
+domain: "Career"
+updated: 2026-06-28
+status: developing
+related: ["[[ailin]]"]
 ---
 # Show Yourself & Transition Curve
 
-## Summary
+## Definition
 แนวคิด "Show Yourself" (หรือการสร้างผลงานให้โลกเห็น / Build in Public) คือการกล้าเปิดเผยตัวเองและกระบวนการเรียนรู้หรือการทำงานออกสู่สาธารณะ ไม่ว่าผลงานนั้นจะสมบูรณ์แบบหรือไม่ก็ตาม เพื่อสร้างตัวตนและหลักฐานเชิงประจักษ์ (Proof of Work) ในขณะเดียวกัน การเริ่มต้นทำสิ่งใหม่มักต้องเผชิญกับ "Transition Curve" (เส้นโค้งการเปลี่ยนผ่าน) ที่เริ่มจากความมองโลกในแง่ดีเพราะไม่รู้ความจริง ไปสู่ความท้อแท้เมื่อพบอุปสรรค และกลับมามองโลกในแง่ดีอีกครั้งเมื่อมีความรู้ความเข้าใจอย่างแท้จริง
 
-## Core Principles
+## How It Works
 
 ### 1. Show Yourself (Build in Public)
 แนวคิดนี้ได้แรงบันดาลใจจาก Alex Hormozi หลักการสำคัญคือ "ถ้าคุณอยากเป็นใครสักคนหรือทำสิ่งที่ยิ่งใหญ่ ก้าวแรกคือคุณต้องแสดงตัวตนออกมา"
@@ -37,5 +43,5 @@ flowchart LR
 2. **Informed Pessimist (มองโลกในแง่ร้ายเมื่อรู้ความจริง):** ช่วงที่เริ่มลงมือทำแล้วพบกับปัญหา ความยากลำบาก และความซับซ้อน ทำให้เกิดความรู้สึกท้อแท้และหนักใจ (Overwhelm) จุดนี้เป็นจุดตัดสินใจสำคัญว่าจะ "ยอมแพ้" (Crash and burn) หรือ "เดินหน้าต่อ" (Push through)
 3. **Informed Optimist (มองโลกในแง่ดีอย่างผู้รู้จริง):** หากผ่านจุดที่ท้อแท้มาได้ จะก้าวเข้าสู่สถานะที่กลับมามองโลกในแง่ดีอีกครั้ง แต่คราวนี้เป็นความมั่นใจที่ตั้งอยู่บนพื้นฐานของความรู้ ประสบการณ์ และความเข้าใจอย่างแท้จริง
 
-## Related
+## Connections
 - [[ailin]]

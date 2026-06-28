@@ -1,11 +1,11 @@
 ---
 type: concept
-title: "<% tp.file.title %>"
+title: "Context Compacting"
 complexity: intermediate
 domain: ""
 aliases: []
-created: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.date.now("YYYY-MM-DD") %>
+created: 2026-06-28
+updated: 2026-06-28
 tags:
   - concept
 status: seed
@@ -13,7 +13,7 @@ related: []
 sources: []
 ---
 
-# <% tp.file.title %>
+# Context Compacting
 
 ## Definition
 <!-- สรุปแนวคิดนี้สั้นๆ ห้ามแต่งเติมหรือบิดเบือนความหมายจากต้นฉบับเด็ดขาด -->
@@ -35,8 +35,3 @@ sources: []
 ## Sources
 
 -
-
-<!-- 
-## Questions to follow up
-(หากค้นหาข้อมูลเพิ่มเติมแล้วยังไม่พบข้อเท็จจริงที่ยืนยันได้ ให้เอา Comment ออกและเขียนคำถามไว้ที่นี่ พร้อมทั้งนำไปใส่ใน Decisions in Flight ในไฟล์ hot.md ด้วย)
--->

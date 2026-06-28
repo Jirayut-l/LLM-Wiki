@@ -6,7 +6,7 @@ tags:
 created: 2026-06-14
 url: "https://www.youtube.com/watch?v=e18sdZLwP7o"
 file_path: "raw/How to Build Claude Subagents Better Than 99% of People.md"
-author: "[[Nate Herk | AI Automation]]"
+author: "[[nate_herk| AI Automation]]"
 ---
 # How to Build Claude Subagents Better Than 99% of People
 
@@ -23,8 +23,8 @@ author: "[[Nate Herk | AI Automation]]"
 - **Dynamic Workflows**: ใช้สร้างเวิร์กโฟลว์อัตโนมัติที่สั่งรัน Subagents ขนานกันหลายตัวพร้อมกัน แต่ต้องระวังเรื่องปริมาณจำกัดการใช้งานใน Session
 
 ## Related Concepts
-- [[Claude Code]]
-- [[Subagent]]
-- [[Orchestration]]
-- [[Progressive Disclosure]]
-- [[Dynamic Workflows]]
+- [[claude_code|Claude Code]]
+- [[subagent|Subagent]]
+- [[orchestration|Orchestration]]
+- [[progressive_disclosure|Progressive Disclosure]]
+- [[dynamic_workflow|Dynamic Workflows]]
